@@ -363,34 +363,34 @@ class App extends Component {
                 <ul className="navbar-nav mr-auto">
 
                   <li className="nav-item">
-                    <NavLink to='/' className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Home</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + '/'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Home</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink to='/Experience' className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Experience</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + '/Experience'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Experience</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink to='/Skills' className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Skills</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + '/Skills'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Skills</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink to='/Certifications' className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Certifications</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + '/Certifications'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Certifications</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink to='/Education' className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Education</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + '/Education'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Education</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink to='/About' className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>About</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + '/About'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>About</NavLink>
                   </li>
 
                 </ul>
               </div>
             </nav>
             <Switch>
-              <Route path='/' component={ Home } exact />
-              <Route path='/Experience' component={ Experience } />
-              <Route path='/Skills' component={ Skills } />
-              <Route path='/Certifications' component={ Certifications } />
-              <Route path='/Education' component={ Education } />
-              <Route path='/About' component={ About } />
+              <Route path={process.env.PUBLIC_URL + '/'} component={ Home } exact />
+              <Route path={process.env.PUBLIC_URL + '/Experience'} component={ Experience } />
+              <Route path={process.env.PUBLIC_URL + '/Skills'} component={ Skills } />
+              <Route path={process.env.PUBLIC_URL + '/Certifications'} component={ Certifications } />
+              <Route path={process.env.PUBLIC_URL + '/Education'} component={ Education } />
+              <Route path={process.env.PUBLIC_URL + '/About'} component={ About } />
               <Route component={ ErrorPath } />
             </Switch>
 
