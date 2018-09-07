@@ -146,10 +146,13 @@ const Skills = () => {
               Requirement Analysis / Backlog Grooming</li>
             <li>
               <i className="fa-li fa fa-check"></i>
+              Wireframes / Mockups (Balsamiq)</li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
               Smart Contract Design and Development with Truffle</li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Smart Contract Testing with Chai / Mocha</li>
+              Smart Contract Testing with Chai / Mocha in TDD</li>
             <li>
               <i className="fa-li fa fa-check"></i>
               Smart Contract Security Considerations</li>
@@ -351,7 +354,7 @@ class App extends Component {
               <a className="navbar-brand" href="#page-top">
                 <span className="d-block d-lg-none">Kedar Joshi</span>
                 <span className="d-none d-lg-block">
-                  <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile.jpg" alt="Kedar Profile Pic" />
+                  <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile.jpg" alt="Kedar's Profile" />
                 </span>
               </a>
 
