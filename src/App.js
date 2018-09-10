@@ -15,8 +15,11 @@ const Home = () => {
               <a href="mailto:kedarnj@gmail.com">kedarnj@gmail.com</a>
             </div>
             <p className="lead mb-5">I thrive on understanding how things work from the first principles. I love knowing stories behind the processes and people who made it possible. I believe in transformative power of technology as applied to the business models and help businesses accomplish results. This helps me formulate business strategy. </p>
-            <p className="lead mb-5">I have overall industry experience of 16+ years. I believe in continuous learning and currently focused on developing skill-set on blockchains and data science. </p>
-
+            <p className="lead mb-5">In August of 2017, I decided to part ways with Cognizant (My employer for more than a decade and half) to explore establishing Decentralized Autonomous Organizations using blockchain as a platform. This topic had been of tremendous interest, however due to responsibilities of my job, I was not able to devote enough time. </p>
+            <p className="lead mb-5">I have spent the following months understanding and exploring this space with studies in Computer Science subjects of Cryptography and Basic Peer to Peer networking, Social Science and Game Theory, Economics - Nature of the Firm, Property and Liability and explored how this could apply to developing DAO on blockchain. Toward this exploration of the space, I was fortunate to discover and communicate with some of the projects. </p>
+            <p className="lead mb-5">I have recorded my thoughts in this <a href="https://medium.com/@kedarnj/case-for-rethinking-tech-services-fd65ec81ca68" target="_blank" rel="noopener noreferrer">Medium Post</a>. The projects I studied were <a href="https://colony.io/" target="_blank" rel="noopener noreferrer">Colony.io</a> and <a href="https://daostack.io/" target="_blank" rel="noopener noreferrer">DAOstack.io</a> The upshot of my exploration has been a number of radical ideas being implemented by some of the best entrepreneurial minds. However these ideas are untested and infrastructure still needs to be built out. To take a further leap, I decided to get hands on and completed a number of technical courses related to blockchain, python3 and web development.</p>
+            <p className="lead mb-5">The certifications I have completed in past year were informed by the path I have followed so far. I am now ready to bring my experience, passion for new technology and range of skills to your Organization. </p>
+            <p className="lead mb-5">I will be a great fit in role that needs combination of business savvy, relationships and technical skills. <a href="mailto:kedarnj@gmail.com">Contact Me Here</a></p>
           </div>
         </section>
 
@@ -38,7 +41,7 @@ const Experience = () => {
             <h3 className="mb-0">Engagement Manager</h3>
             <div className="subheading mb-3">Cognizant Technology Solutions at Wells Fargo</div>
             <p>Drove double digit revenue growth in under 5 years and established high quality revenue sources with lasting relationships.</p>
-            <p>Implemented 8 pronged strategy for engagement management to grow and protect market share.</p>
+            <p>Accountable for developing and implementing strategic vision for engagement management to grow and protect market share.</p>
             <p>Consistently topped customer satisfaction scores.</p>
           </div>
           <div className="resume-date text-md-right">
@@ -425,11 +428,11 @@ const About = () => {
               <p className="lead mb-5">Using hard data absolutely should drive rational decision making, however human decision making is often informed by cognitive and behavioral biases. Being sensitive to such complexities is important in engaging with people and building lasting relationships.</p>
               <div className="subheading mb-0">Self Learn and Explore</div>
               <ul>
-                <li className="lead mb-5">This website - utilizes React JS fundamentals such as Stateless Functional Components, JSX and React Router with Bootstrap 4</li>
-                <li className="lead mb-5">eCommerce on Ethereum blockchain - Front end ReactJS and Backend - Solidity Smart Contracts  </li>
-                <img className="img-fluid img-responsive mx-auto mb-2" src='eCommercedApp.png' alt='eCommerce dApp' />
-                <li className="lead mb-5">Ethereum Node interactions - implemented with Python3 and D3.JS. We can observe clustering around exchange nodes.</li>
-                <img className="img-fluid img-responsive mx-auto mb-2" src='ethGraph.png' alt='eth Node Graph' />
+                <li className="mb-2">This website - utilizes React JS fundamentals such as Stateless Functional Components, JSX and React Router with Bootstrap 4</li>
+                <li className="mb-2">eCommerce on Ethereum blockchain - Front end ReactJS and Backend - Solidity Smart Contracts  </li>
+                <img className="img-fluid img-responsive mx-auto mb-5" src='eCommercedApp.png' alt='eCommerce dApp' />
+                <li className="mb-2">Ethereum Node interactions - implemented with Python3 and D3.JS. We can observe clustering around exchange nodes.</li>
+                <img className="img-fluid img-responsive mx-auto mb-5" src='ethGraph.png' alt='eth Node Graph' />
               </ul>
               <div className="subheading mb-0">Other Interests</div>
               <p className="lead mb-5">I live in Charlotte with my wife and 5 year old son. I thoroughly enjoy spending my spare time with my son. I have a renewed passion for hiking and enjoy taking my family on local hikes. </p>
