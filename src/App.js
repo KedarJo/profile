@@ -15,19 +15,8 @@ const Home = () => {
               <a href="mailto:kedarnj@gmail.com">kedarnj@gmail.com</a>
             </div>
             <p className="lead mb-5">I thrive on understanding how things work from the first principles. I love knowing stories behind the processes and people who made it possible. I believe in transformative power of technology as applied to the business models and help businesses accomplish results. This helps me formulate business strategy. </p>
-            <p className="lead mb-5">As an accounts/engagement manager for Retail Brokerage (WFA) and Wealth Management division of Wells Fargo I helped implement 8 pronged strategy based on relationship development, research and innovation with rapid prototyping and product mindset to elevate the contractual agreement to a rich long term partnership, consistently posting double digit growth and high customer satisfaction score. </p>
-            <p className="lead mb-5">As a delivery manager based out of India, I project managed and delivered multi-million dollar projects for clients with exacting delivery standards, ensuring high quality deliverables and inspiring teams with storytelling, breaking the communication barriers and making the ‘black-box’ transparent. </p>
-            <p className="lead mb-5">As an engineer and tech lead, I focused on best in class solution design and collaboration with cross functional teams with a true service mindset. </p>
             <p className="lead mb-5">I have overall industry experience of 16+ years. I believe in continuous learning and currently focused on developing skill-set on blockchains and data science. </p>
-            <div className="social-icons">
-              <a href="https://www.linkedin.com/in/kedar-joshi-5648b44b/" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-linkedin-in"></i>
-              </a>
-              <a href="https://github.com/KedarJo" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-github"></i>
-              </a>
 
-            </div>
           </div>
         </section>
 
@@ -111,70 +100,105 @@ const Skills = () => {
     <div className="container-fluid p-0">
       <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <h2 className="mb-5">Skills</h2>
-        <div className="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul className="list-inline dev-icons">
-            <li className="list-inline-item">
-              <i className="fab fa-html5"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-css3-alt"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-js-square"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-react"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-python"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-ethereum"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-bitcoin"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-github-alt"></i>
-            </li>
-          </ul>
 
-        <div className="subheading mb-3">Workflow</div>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Requirement Analysis / Backlog Grooming</li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Wireframes / Mockups (Balsamiq)</li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Smart Contract Design and Development with Truffle</li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Smart Contract Testing with Chai / Mocha in TDD</li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Smart Contract Security Considerations</li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Smart Contract Ecosystem IPFS, UPort etc</li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
-          </ul>
+          <div className="subheading mb-3">Communication Tools</div>
+            <ul className="list-inline dev-icons">
+              <li className="list-inline-item">
+                <i className="fas fa-file-word"></i>
+              </li>
+              <li className="list-inline-item">
+                <i className="fas fa-file-excel"></i>
+              </li>
+              <li className="list-inline-item">
+                <i className="fas fa-file-powerpoint"></i>
+              </li>
+              <li className="list-inline-item">
+                <i className="fas fa-envelope"></i>
+              </li>
+              <li className="list-inline-item">
+                <i className="fab fa-skype"></i>
+              </li>
+              <li className="list-inline-item">
+                <i className="fab fa-slack"></i>
+              </li>
+              <li className="list-inline-item">
+                <i className="fab fa-whatsapp-square"></i>
+              </li>
+            </ul>
+
+            <div className="subheading mb-3">Programming Languages &amp; Tools</div>
+              <ul className="list-inline dev-icons">
+                <li className="list-inline-item">
+                  <i className="fab fa-html5"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-css3-alt"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-js-square"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-react"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-python"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-ethereum"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-bitcoin"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-cube"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-atom"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-github-alt"></i>
+                </li>
+              </ul>
+
+            <div className="subheading mb-3">Workflow</div>
+              <ul className="fa-ul mb-0">
+                <li>
+                  <i className="fa-li fa fa-check"></i>
+                  Requirement Analysis / Backlog Grooming</li>
+                <li>
+                  <i className="fa-li fa fa-check"></i>
+                  Wireframes / Mockups (Balsamiq)</li>
+                <li>
+                  <i className="fa-li fa fa-check"></i>
+                  Develop User Stories and Epics</li>
+                <li>
+                  <i className="fa-li fa fa-check"></i>
+                  Smart Contract Design and Development with Truffle</li>
+                <li>
+                  <i className="fa-li fa fa-check"></i>
+                  Smart Contract Testing with Chai / Mocha in TDD</li>
+                <li>
+                  <i className="fa-li fa fa-check"></i>
+                  Smart Contract Security Considerations, Static code review tools</li>
+                <li>
+                  <i className="fa-li fa fa-check"></i>
+                  Smart Contract Ecosystem IPFS, UPort etc</li>
+                <li>
+                  <i className="fa-li fa fa-check"></i>
+                  Cross Functional Teams</li>
+                <li>
+                  <i className="fa-li fa fa-check"></i>
+                  Agile Development &amp; Scrum</li>
+              </ul>
 
           <div className="subheading mb-3">Management</div>
             <ul className="fa-ul mb-0">
               <li>
                 <i className="fa-li fa fa-check"></i>
-                Account Management - Relationship, Marketing, Revenue, Budgeting </li>
+                Engagement Management -  accountable for developing and executing a strategic vision that enables long-term profitable growth of market share</li>
               <li>
                 <i className="fa-li fa fa-check"></i>
-                Delivery Management - P&L, Pre-Sales, Project Management </li>
+                Delivery Management - accountable for execution of strategic plans and implementing best-in-class processes to drive high quality deliverables while contributing to high bottom line profitability</li>
               <li>
                 <i className="fa-li fa fa-check"></i>
                 Team Leadership and People Management </li>
@@ -232,6 +256,7 @@ const Certifications = () => {
         </div>
 
       </section>
+      <hr className="m-0" />
     </div>
   )
 }
@@ -323,14 +348,98 @@ const Education = () => {
           </div>
         </div>
       </section>
+      <hr className="m-0" />
     </div>
   )
 }
 
 const About = () => {
   return (
-    <div>
-      <p>New Route About</p>
+    <div className="container-fluid p-0">
+      <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="about">
+        <div className="my-auto">
+          <h2 className="mb-5">Enhancing Business Outcomes with Product Focus</h2>
+          <div className="resume-item d-flex flex-column flex-md-row mb-5">
+            <div className="resume-content mr-auto">
+
+              <div className="subheading mb-3"></div>
+              <p className="lead mb-5">I like to work on interesting problems, learn new things and work with smart, forward focused people. I believe that true thought leadership can only be delivered by building on fresh ideas and experimenting with new technologies.</p>
+              <p className="lead mb-5">I look at business through customer and product lens. How customers experience the product through its lifecycle and the business operations and technology infrastructure that make it possible presents opportunities to continuously innovate and improve that experience and offer better value. </p>
+              <div className="subheading mb-0">Service delivery philosophy</div>
+              <img className="img-fluid img-responsive mx-auto mb-2" src='StrategicPillers.png' alt='StrategicPillers' />
+              <p className="lead mb-5">Within a large organization a team of any size will benefit from this philosophy towards servicing others.</p>
+              <div className="subheading mb-0">Leading through influence</div>
+              <ul className="list-inline dev-icons">
+                <li className="list-inline-item">
+                  <i className="fas fa-lightbulb"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-arrow-circle-right"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-chalkboard-teacher"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-arrow-circle-right"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-microphone-alt"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-bullhorn"></i>
+                </li>
+              </ul>
+              <p className="lead mb-5">In large matrix enterprises and ecosystem of product and service delivery partners, usually responsibility comes without authority. I believe in using storytelling using data and experiences as an effective mechanism to influence decisions and arrive at consensus quickly.</p>
+
+              <div className="subheading mb-0">Information Brokering and Delivery </div>
+              <ul className="list-inline dev-icons">
+                <li className="list-inline-item">
+                  <i className="fas fa-chalkboard"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-phone"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-share-alt"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-laptop"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-chart-line"></i>
+                </li>
+              </ul>
+              <p className="lead mb-5">I work hard to understand and fulfill the information needs of the cross functional teams to avoid undue risks arising due to information leakage and delays.</p>
+              <div className="subheading mb-0">Data Driven Culture does not escape human complexities</div>
+              <ul className="list-inline dev-icons">
+                <li className="list-inline-item">
+                  <i className="fas fa-brain"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-arrows-alt"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-brain"></i>
+                </li>
+              </ul>
+              <p className="lead mb-5">Using hard data absolutely should drive rational decision making, however human decision making is often informed by cognitive and behavioral biases. Being sensitive to such complexities is important in engaging with people and building lasting relationships.</p>
+              <div className="subheading mb-0">Self Learn and Explore</div>
+              <ul>
+                <li className="lead mb-5">This website - utilizes React JS fundamentals such as Stateless Functional Components, JSX and React Router with Bootstrap 4</li>
+                <li className="lead mb-5">eCommerce on Ethereum blockchain - Front end ReactJS and Backend - Solidity Smart Contracts  </li>
+                <img className="img-fluid img-responsive mx-auto mb-2" src='eCommercedApp.png' alt='eCommerce dApp' />
+                <li className="lead mb-5">Ethereum Node interactions - implemented with Python3 and D3.JS. We can observe clustering around exchange nodes.</li>
+                <img className="img-fluid img-responsive mx-auto mb-2" src='ethGraph.png' alt='eth Node Graph' />
+              </ul>
+              <div className="subheading mb-0">Other Interests</div>
+              <p className="lead mb-5">I live in Charlotte with my wife and 5 year old son. I thoroughly enjoy spending my spare time with my son. I have a renewed passion for hiking and enjoy taking my family on local hikes. </p>
+              <img className="img-fluid img-responsive mx-auto mb-2" src='KedarCasual.jpg' alt='KedarCasual' />
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <hr className="m-0" />
     </div>
   )
 }
@@ -354,7 +463,7 @@ class App extends Component {
               <a className="navbar-brand" href="#page-top">
                 <span className="d-block d-lg-none">Kedar Joshi</span>
                 <span className="d-none d-lg-block">
-                  <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile.jpg" alt="Kedar's Profile" />
+                  <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile.png" alt="Kedar's Profile" />
                 </span>
               </a>
 
@@ -381,7 +490,7 @@ class App extends Component {
                     <NavLink to={process.env.PUBLIC_URL + '/Education'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Education</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink to={process.env.PUBLIC_URL + '/About'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>About</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + '/About'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>About Me</NavLink>
                   </li>
 
                 </ul>
@@ -399,13 +508,35 @@ class App extends Component {
 
           </div>
         </BrowserRouter>
+        <footer>
+
+            <div className="social-icons p-2 d-flex d-column justify-content-center">
+              <a href="https://www.linkedin.com/in/kedar-joshi-5648b44b/" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/KedarJo" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-github"></i>
+              </a>
+              <a href="mailto:kedarnj@gmail.com">
+                <i className="fas fa-envelope"></i>
+              </a>
+            </div>
+            <hr className="m-0" />
+
+        </footer>
       </div>
     );
   }
 }
 
 /*
-
+<section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+</section>
+<p className="lead mb-5">As an accounts/engagement manager for Retail Brokerage (WFA) and Wealth Management division of Wells Fargo I was responsible for building and implementing strategic vision based on relationship development, research and innovation with rapid prototyping and product mindset to elevate the contractual agreement to a rich long term partnership, consistently posting double digit growth and high customer satisfaction score. </p>
+<p className="lead mb-5">As a delivery manager based out of India, I project managed and delivered multi-million dollar projects for clients with exacting delivery standards, ensuring high quality deliverables and inspiring teams with storytelling, breaking the communication barriers and making the ‘black-box’ transparent. </p>
+<p className="lead mb-5">As an engineer and tech lead, I focused on best in class solution design and collaboration with cross functional teams with a true service mindset. </p>
+<img className="img-fluid img-responsive mx-auto mb-2" src='BehaviouralBiasBrain.jpg' alt='BehaviouralBiasBrain' />
+<img className="img-fluid img-responsive mx-auto mb-2" src='storytelling.jpg' alt='storytelling' />
 */
 
 export default App;
