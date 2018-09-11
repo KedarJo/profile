@@ -11,15 +11,20 @@ const Home = () => {
             <h1 className="mb-0">Kedar
               <span className="text-primary"> Joshi</span>
             </h1>
-            <div className="subheading mb-5">14213 Stewarts Bend Lane · Charlotte, NC 28277 · (980) 226-3028 ·
+            <div className="subheading mb-5">Charlotte, NC · (980) 226-3028 ·
               <a href="mailto:kedarnj@gmail.com">kedarnj@gmail.com</a>
             </div>
-            <p className="lead mb-5">I thrive on understanding how things work from the first principles. I love knowing stories behind the processes and people who made it possible. I believe in transformative power of technology as applied to the business models and help businesses accomplish results. This helps me formulate business strategy. </p>
-            <p className="lead mb-5">In August of 2017, I decided to part ways with Cognizant (My employer for more than a decade and half) to explore establishing Decentralized Autonomous Organizations using blockchain as a platform. This topic had been of tremendous interest, however due to responsibilities of my job, I was not able to devote enough time. </p>
-            <p className="lead mb-5">I have spent the following months understanding and exploring this space with studies in Computer Science subjects of Cryptography and Basic Peer to Peer networking, Social Science and Game Theory, Economics - Nature of the Firm, Property and Liability and explored how this could apply to developing DAO on blockchain. Toward this exploration of the space, I was fortunate to discover and communicate with some of the projects. </p>
-            <p className="lead mb-5">I have recorded my thoughts in this <a href="https://medium.com/@kedarnj/case-for-rethinking-tech-services-fd65ec81ca68" target="_blank" rel="noopener noreferrer">Medium Post</a>. The projects I studied were <a href="https://colony.io/" target="_blank" rel="noopener noreferrer">Colony.io</a> and <a href="https://daostack.io/" target="_blank" rel="noopener noreferrer">DAOstack.io</a> The upshot of my exploration has been a number of radical ideas being implemented by some of the best entrepreneurial minds. However these ideas are untested and infrastructure still needs to be built out. To take a further leap, I decided to get hands on and completed a number of technical courses related to blockchain, python3 and web development.</p>
-            <p className="lead mb-5">The certifications I have completed in past year were informed by the path I have followed so far. I am now ready to bring my experience, passion for new technology and range of skills to your Organization. </p>
-            <p className="lead mb-5">I will be a great fit in role that needs combination of business savvy, relationships and technical skills. <a href="mailto:kedarnj@gmail.com">Contact Me Here</a></p>
+            <div className='text-justify'>
+              <p className="lead mb-4">Hello and Welcome! </p>
+              <p className="lead mb-4">I am Kedar, a creative strategist, an INTJ personality type, with an eye for detail, appreciation for aesthetics and take pride and satisfaction only when the work is done to the exacting standards. </p>
+              <p className="lead mb-4">My professional interests include product strategy and operations, business analysis, service design, experimenting and implementing digital solutions that enhance product experience.</p>
+              <p className="lead mb-4">I am seasoned professional with experience over a decade and half playing various roles that include engineering solutions to business problems, managing multi-million dollar projects and developing and implementing strategic vision for profitable growth of a multi-million dollar professional services portfolio.</p>
+              <p className="lead mb-4">In August of 2017, I decided to part ways with my former employer to devote entire time to an independent research on Decentralized Autonomous Organizations (DAO) using blockchain platform. In the following months, I studied variety of foundational subjects in Computer Science, Social Sciences, Economics and Platform Business models. These theoretical topics helped me develop an in depth understanding of overall blockchain space. Read my <a href="https://medium.com/@kedarnj/case-for-rethinking-tech-services-fd65ec81ca68" target="_blank" rel="noopener noreferrer">Medium Post</a> here. </p>
+              <p className="lead mb-4">Amongst the many projects I studied two interesting projects focused on DAO implementation are <a href="https://colony.io/" target="_blank" rel="noopener noreferrer">Colony</a> and <a href="https://daostack.io/" target="_blank" rel="noopener noreferrer">DAOStack</a>. They implement a number of radical ideas around allocating funds to initiatives based on meritocracy. The infrastructure, adoption and scaling will decide their future.</p>
+              <p className="lead mb-4">Along the path I chose, I have picked up a number of new skills. I am now ready to bring my past experience, passion for new technology and range of skills to your organization. I will be a great fit for a role that requires business savvy and future technology focus.</p>
+              <p className="lead mb-4">I am seeking to be inspired, envision the future, work hard on interesting problems that make the work meaningful and be surrounded by people who bring out the best in me.</p>
+              <p className="lead mb-4">Say Hello <a href="mailto:kedarnj@gmail.com">@email</a> </p>
+            </div>
           </div>
         </section>
 
@@ -34,15 +39,29 @@ const Experience = () => {
   return (
 
     <div className="container-fluid p-0">
-      <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <section className="resume-section p-3 p-lg-5 d-flex flex-column text-justify" id="experience">
+
+        <div className="resume-item d-flex flex-column flex-md-row mb-5">
+          <div className="resume-content mr-auto">
+            <h3 className="mb-0">Independent, Blockchain & Data Science</h3>
+            <div className="subheading mb-3">Independent</div>
+            <p>Learnt fundamental subjects such as Cryptography, Peer to Peer networks, Game Theory, Platform Economics and more (see certifications) to understand blockchain space. Studied number of blockchain projects and got certified in IBM backed Hyperledger Fabric foundations as well as Ethereum.</p>
+          </div>
+          <div className="resume-date text-md-right">
+            <span className="text-primary">Sep 2017 - Present</span>
+          </div>
+        </div>
 
         <div className="resume-item d-flex flex-column flex-md-row mb-5">
           <div className="resume-content mr-auto">
             <h3 className="mb-0">Engagement Manager</h3>
             <div className="subheading mb-3">Cognizant Technology Solutions at Wells Fargo</div>
-            <p>Drove double digit revenue growth in under 5 years and established high quality revenue sources with lasting relationships.</p>
-            <p>Accountable for developing and implementing strategic vision for engagement management to grow and protect market share.</p>
-            <p>Consistently topped customer satisfaction scores.</p>
+            <ul>
+              <li>Accountable for developing and implementing strategic vision for marketshare protection and growth of a multi-million dollar engagement.</li>
+              <li>Implemented service design focused on Relationship Building, Collaboration, Research & Consulting with a mantra 'add so much value that customers view you as an investment'.</li>
+              <li>Doubled the marketshare in under 5 years while establishing lasting relationships and high quality revenue </li>
+              <li>Consistently topped Customer Satisfaction Scores.</li>
+            </ul>
           </div>
           <div className="resume-date text-md-right">
             <span className="text-primary">Jan 2013 - Aug 2017</span>
@@ -53,9 +72,14 @@ const Experience = () => {
           <div className="resume-content mr-auto">
             <h3 className="mb-0">Delivery Manager</h3>
             <div className="subheading mb-3">Cognizant Technology Solutions at Wells Fargo</div>
-            <p>Responsible for delivery of portfolio of projects across different enterprise application areas such as customer service, Front Office and Back Office of Retail Brokerage division.</p>
-            <p>Collaborated with cross functional stakeholders such as Project Managers, Business Partners, SMEs and Tech Leads to ensure smooth execution.</p>
-            <p>Consistently topped team engagement scores.</p>
+            <ul>
+              <li>Accountable for delivering a portfolio of projects in Retail Brokerage & Wealth Management domain focused on improving lives of Financial </li>
+              <li>Advisors and customers while meeting compliance and regulatory standards.</li>
+              <li>Accountable for team leadership and inspiring people to do their best work.</li>
+              <li>Implemented best-in-class processes, metrics/KPI based management and high quality deliverables</li>
+              <li>Maintained healthy profitability</li>
+              <li>Consistently topped team engagement scores</li>
+            </ul>
           </div>
           <div className="resume-date text-md-right">
             <span className="text-primary">Jan 2011 - Dec 2012</span>
@@ -104,31 +128,6 @@ const Skills = () => {
       <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <h2 className="mb-5">Skills</h2>
 
-          <div className="subheading mb-3">Communication Tools</div>
-            <ul className="list-inline dev-icons">
-              <li className="list-inline-item">
-                <i className="fas fa-file-word"></i>
-              </li>
-              <li className="list-inline-item">
-                <i className="fas fa-file-excel"></i>
-              </li>
-              <li className="list-inline-item">
-                <i className="fas fa-file-powerpoint"></i>
-              </li>
-              <li className="list-inline-item">
-                <i className="fas fa-envelope"></i>
-              </li>
-              <li className="list-inline-item">
-                <i className="fab fa-skype"></i>
-              </li>
-              <li className="list-inline-item">
-                <i className="fab fa-slack"></i>
-              </li>
-              <li className="list-inline-item">
-                <i className="fab fa-whatsapp-square"></i>
-              </li>
-            </ul>
-
             <div className="subheading mb-3">Programming Languages &amp; Tools</div>
               <ul className="list-inline dev-icons">
                 <li className="list-inline-item">
@@ -163,7 +162,7 @@ const Skills = () => {
                 </li>
               </ul>
 
-            <div className="subheading mb-3">Workflow</div>
+            <div className="subheading mb-3 text-justify">Workflow</div>
               <ul className="fa-ul mb-0">
                 <li>
                   <i className="fa-li fa fa-check"></i>
@@ -191,21 +190,49 @@ const Skills = () => {
                   Cross Functional Teams</li>
                 <li>
                   <i className="fa-li fa fa-check"></i>
-                  Agile Development &amp; Scrum</li>
+                  Agile Development &amp; Scrum with Jira</li>
               </ul>
 
-          <div className="subheading mb-3">Management</div>
+          <div className="subheading mb-3 text-justify">Management</div>
             <ul className="fa-ul mb-0">
               <li>
                 <i className="fa-li fa fa-check"></i>
-                Engagement Management -  accountable for developing and executing a strategic vision that enables long-term profitable growth of market share</li>
+                Developing and executing a strategic vision that enables long-term profitable growth of market share</li>
               <li>
                 <i className="fa-li fa fa-check"></i>
-                Delivery Management - accountable for execution of strategic plans and implementing best-in-class processes to drive high quality deliverables while contributing to high bottom line profitability</li>
+                Design Service touchpoints understanding customer journey map</li>
+              <li>
+                <i className="fa-li fa fa-check"></i>
+                Execution of strategic plans and implementing best-in-class processes to drive high quality deliverables while contributing to high bottom line profitability</li>
               <li>
                 <i className="fa-li fa fa-check"></i>
                 Team Leadership and People Management </li>
             </ul>
+
+            <div className="subheading mb-3">Communication Tools</div>
+              <ul className="list-inline dev-icons">
+                <li className="list-inline-item">
+                  <i className="fas fa-file-word"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-file-excel"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-file-powerpoint"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fas fa-envelope"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-skype"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-slack"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="fab fa-whatsapp-square"></i>
+                </li>
+              </ul>
 
 
       </section>
@@ -363,14 +390,13 @@ const About = () => {
         <div className="my-auto">
           <h2 className="mb-5">Enhancing Business Outcomes with Product Focus</h2>
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
-            <div className="resume-content mr-auto">
+            <div className="resume-content mr-auto text-justify">
 
               <div className="subheading mb-3"></div>
-              <p className="lead mb-5">I like to work on interesting problems, learn new things and work with smart, forward focused people. I believe that true thought leadership can only be delivered by building on fresh ideas and experimenting with new technologies.</p>
-              <p className="lead mb-5">I look at business through customer and product lens. How customers experience the product through its lifecycle and the business operations and technology infrastructure that make it possible presents opportunities to continuously innovate and improve that experience and offer better value. </p>
+              <p className="lead mb-5">I look at business through customer and product lens. I seek to understand how customers experience the product through its lifecycle and the business operations and technology infrastructure that make it possible. Such analysis presents opportunities to continuously innovate and improve the experience and offer better value proposition. </p>
               <div className="subheading mb-0">Service delivery philosophy</div>
               <img className="img-fluid img-responsive mx-auto mb-2" src='StrategicPillers.png' alt='StrategicPillers' />
-              <p className="lead mb-5">Within a large organization a team of any size will benefit from this philosophy towards servicing others.</p>
+              <p className="lead mb-5">Within a large organization a team of any size will benefit from this philosophy and principles of designing moments of truth. </p>
               <div className="subheading mb-0">Leading through influence</div>
               <ul className="list-inline dev-icons">
                 <li className="list-inline-item">
@@ -392,7 +418,7 @@ const About = () => {
                   <i className="fas fa-bullhorn"></i>
                 </li>
               </ul>
-              <p className="lead mb-5">In large matrix enterprises and ecosystem of product and service delivery partners, usually responsibility comes without authority. I believe in using storytelling using data and experiences as an effective mechanism to influence decisions and arrive at consensus quickly.</p>
+              <p className="lead mb-5">In large matrix enterprises and ecosystem of product and service delivery partners, usually responsibility comes without authority. To lead without clear authority, I use storytelling using data and experiences as an effective mechanism to influence decisions and arrive at consensus quickly.</p>
 
               <div className="subheading mb-0">Information Brokering and Delivery </div>
               <ul className="list-inline dev-icons">
@@ -427,16 +453,18 @@ const About = () => {
               </ul>
               <p className="lead mb-5">Using hard data absolutely should drive rational decision making, however human decision making is often informed by cognitive and behavioral biases. Being sensitive to such complexities is important in engaging with people and building lasting relationships.</p>
               <div className="subheading mb-0">Self Learn and Explore</div>
+              <p className="lead mb-5">Continuous learning new skillset</p>
               <ul>
-                <li className="mb-2">This website - utilizes React JS fundamentals such as Stateless Functional Components, JSX and React Router with Bootstrap 4</li>
-                <li className="mb-2">eCommerce on Ethereum blockchain - Front end ReactJS and Backend - Solidity Smart Contracts  </li>
+                <li className="mb-2">This website - utilizes ReactJS fundamentals such as Stateless Functional Components, JSX and React Router with Bootstrap 4</li>
+                <li className="mb-2">eCommerce on Ethereum blockchain - ReactJS, ES6, Web3, MetaMask and Bootstrap 4 for front end with Solidity Smart Contracts deployed on Ethereum blockchain</li>
                 <img className="img-fluid img-responsive mx-auto mb-5" src='eCommercedApp.png' alt='eCommerce dApp' />
                 <li className="mb-2">Ethereum Node interactions - implemented with Python3 and D3.JS. We can observe clustering around exchange nodes.</li>
                 <img className="img-fluid img-responsive mx-auto mb-5" src='ethGraph.png' alt='eth Node Graph' />
               </ul>
-              <div className="subheading mb-0">Other Interests</div>
-              <p className="lead mb-5">I live in Charlotte with my wife and 5 year old son. I thoroughly enjoy spending my spare time with my son. I have a renewed passion for hiking and enjoy taking my family on local hikes. </p>
-              <img className="img-fluid img-responsive mx-auto mb-2" src='KedarCasual.jpg' alt='KedarCasual' />
+              <div className="subheading mb-2">Other Interests</div>
+              <p className="lead mb-5">I live in Charlotte with my wife and 5 year old son. I thoroughly enjoy spending my spare time with my boy. I have a renewed passion for hiking and enjoy taking my family on local hikes. </p>
+              <img className="img-fluid img-responsive mx-auto mb-5" src='KedarCasual.jpg' alt='KedarCasual' />
+              <p className="lead mb-4">I would love to meet you! Reach me <a href="mailto:kedarnj@gmail.com">@email</a> </p>
             </div>
 
           </div>
@@ -466,7 +494,7 @@ class App extends Component {
               <a className="navbar-brand" href="#page-top">
                 <span className="d-block d-lg-none">Kedar Joshi</span>
                 <span className="d-none d-lg-block">
-                  <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile.png" alt="Kedar's Profile" />
+                  <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile_alt.png" alt="Kedar's Profile" />
                 </span>
               </a>
 
