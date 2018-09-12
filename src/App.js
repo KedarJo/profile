@@ -487,60 +487,63 @@ class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter>
-          <div id='page-top'>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <header>
+          <BrowserRouter>
+            <div id='page-top'>
+              <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
 
-              <a className="navbar-brand" href="#page-top">
-                <span className="d-block d-lg-none">Kedar Joshi</span>
-                <span className="d-none d-lg-block">
-                  <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile_alt.png" alt="Kedar's Profile" />
-                </span>
-              </a>
+                <a className="navbar-brand" href="#page-top">
+                  <span className="d-block d-lg-none">Kedar Joshi</span>
+                  <span className="d-none d-lg-block">
+                    <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile_alt.png" alt="Kedar's Profile" />
+                  </span>
+                </a>
 
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-              </button>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon"></span>
+                </button>
 
-              <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul className="navbar-nav mr-auto">
 
-                  <li className="nav-item">
-                    <NavLink to={process.env.PUBLIC_URL + '/'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Home</NavLink>
-                  </li>
-                  <li className="nav-item">
-                    <NavLink to={process.env.PUBLIC_URL + '/Experience'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Experience</NavLink>
-                  </li>
-                  <li className="nav-item">
-                    <NavLink to={process.env.PUBLIC_URL + '/Skills'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Skills</NavLink>
-                  </li>
-                  <li className="nav-item">
-                    <NavLink to={process.env.PUBLIC_URL + '/Certifications'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Certifications</NavLink>
-                  </li>
-                  <li className="nav-item">
-                    <NavLink to={process.env.PUBLIC_URL + '/Education'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Education</NavLink>
-                  </li>
-                  <li className="nav-item">
-                    <NavLink to={process.env.PUBLIC_URL + '/About'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>About Me</NavLink>
-                  </li>
+                    <li className="nav-item">
+                      <NavLink to={process.env.PUBLIC_URL + '/'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Home</NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink to={process.env.PUBLIC_URL + '/Experience'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Experience</NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink to={process.env.PUBLIC_URL + '/Skills'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Skills</NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink to={process.env.PUBLIC_URL + '/Certifications'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Certifications</NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink to={process.env.PUBLIC_URL + '/Education'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Education</NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink to={process.env.PUBLIC_URL + '/About'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>About Me</NavLink>
+                    </li>
 
-                </ul>
-              </div>
-            </nav>
-            <Switch>
-              <Route path={process.env.PUBLIC_URL + '/'} component={ Home } exact />
-              <Route path={process.env.PUBLIC_URL + '/Experience'} component={ Experience } />
-              <Route path={process.env.PUBLIC_URL + '/Skills'} component={ Skills } />
-              <Route path={process.env.PUBLIC_URL + '/Certifications'} component={ Certifications } />
-              <Route path={process.env.PUBLIC_URL + '/Education'} component={ Education } />
-              <Route path={process.env.PUBLIC_URL + '/About'} component={ About } />
-              <Route component={ ErrorPath } />
-            </Switch>
+                  </ul>
+                </div>
+              </nav>
+              <main>
+                <Switch>
+                  <Route path={process.env.PUBLIC_URL + '/'} component={ Home } exact />
+                  <Route path={process.env.PUBLIC_URL + '/Experience'} component={ Experience } />
+                  <Route path={process.env.PUBLIC_URL + '/Skills'} component={ Skills } />
+                  <Route path={process.env.PUBLIC_URL + '/Certifications'} component={ Certifications } />
+                  <Route path={process.env.PUBLIC_URL + '/Education'} component={ Education } />
+                  <Route path={process.env.PUBLIC_URL + '/About'} component={ About } />
+                  <Route component={ ErrorPath } />
+                </Switch>
+              </main>
+            </div>
+          </BrowserRouter>
+        </header>
 
-          </div>
-        </BrowserRouter>
         <footer>
-
             <div className="social-icons p-2 d-flex d-column justify-content-center">
               <a href="https://www.linkedin.com/in/kedar-joshi-5648b44b/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin-in"></i>
@@ -553,7 +556,6 @@ class App extends Component {
               </a>
             </div>
             <hr className="m-0" />
-
         </footer>
       </div>
     );
