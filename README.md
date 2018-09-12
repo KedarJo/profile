@@ -34,4 +34,21 @@ This resolves to root in dev and deployed folder specified in package.json in pr
 ---
 
 Publishing to Github Pages was done by following guidance at [Github Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+
+1. Change the Github Project settings for GitHub Pages. Select 'gh-pages branch' for Source and save.
+2. Install Github Pages locally
+```
+$ npm install gh-pages --save
+```
+3. Modify package.json to add the following lines
+```
+  "homepage": "https://KedarJo.github.io/profile/",
+```
+and under scripts:
+```
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build",
+```
+This will make sure the upon deploy, the build script will get the build ready under 'build' directory and Github Pages will publish from that directory. 
+
 ---
