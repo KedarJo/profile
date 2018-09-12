@@ -14,6 +14,7 @@ $ npm install react-router-dom
 The BrowserRouter, Route and NavLink were used to control navigation.
 
 The content of the site is static and Stateless React Functional Components were defined to render the content. Further there is no pre-processing or post processing, hence there is no constructor defined, nor componentWillMount, componentDidMount etc. are used.
+
 ----
 
 Important Considerations
@@ -31,9 +32,11 @@ This resolves to root in dev and deployed folder specified in package.json in pr
 ```
   onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}
 ```
+
 ---
 
-Publishing to Github Pages was done by following guidance at [Github Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+Publishing to [Github Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+---
 
 1. Change the Github Project settings for GitHub Pages. Select 'gh-pages branch' for Source and save.
 2. Install Github Pages locally
@@ -49,6 +52,6 @@ and under scripts:
     "predeploy": "npm run build",
     "deploy" : "gh-pages -d build",
 ```
-This will make sure the upon deploy, the build script will get the build ready under 'build' directory and Github Pages will publish from that directory. 
+This will make sure the upon deploy, the build script will get the build ready under 'build' directory and Github Pages will publish from that directory.
 
 ---
