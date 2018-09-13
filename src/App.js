@@ -25,7 +25,7 @@ const Home = () => {
               <p className="lead mb-4">Amongst the many projects I studied two interesting projects focused on DAO implementation are <a href="https://colony.io/" target="_blank" rel="noopener noreferrer">Colony</a> and <a href="https://daostack.io/" target="_blank" rel="noopener noreferrer">DAOStack</a>. They implement a number of radical ideas around allocating funds to initiatives based on meritocracy. The infrastructure, adoption and scaling will decide their future.</p>
               <p className="lead mb-4">Along the path I chose, I have picked up a number of new functional and technical <a href={process.env.PUBLIC_URL + '/Skills'}>skills</a>. I am now ready to bring my past experience, passion for new technology and range of skills to your organization. I will be a great fit for a role that requires business savvy and future technology focus.</p>
               <p className="lead mb-4">I am seeking to be inspired, envision the future, work hard on interesting problems that make the work meaningful and be surrounded by people who bring out the best in me.</p>
-              <p className="lead mb-4">A bit more <a href={process.env.PUBLIC_URL + '/About'}>about me</a> </p>
+              <p className="lead mb-4">A bit more <a href={process.env.PUBLIC_URL + '/About'}>about me, my values and recent work</a> </p>
               <p className="lead mb-4">Say Hello <a href="mailto:kedarnj@gmail.com">@email</a> </p>
             </div>
           </div>
@@ -391,7 +391,7 @@ const About = () => {
     <div className="container-fluid p-0">
       <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="about">
         <div className="my-auto">
-          <h2 className="mb-5">Enhancing Business Outcomes with Product Focus</h2>
+          <h2 className="mb-5">Business Outcomes with Product Focus</h2>
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
             <div className="resume-content mr-auto text-justify">
 
@@ -455,8 +455,7 @@ const About = () => {
                 </li>
               </ul>
               <p className="lead mb-5">Using hard data absolutely should drive rational decision making, however human decision making is often informed by cognitive and behavioral biases. Being sensitive to such complexities is important in engaging with people and building lasting relationships.</p>
-              <div className="subheading mb-0">Self Learn and Explore</div>
-              <p className="lead mb-5">Continuous learning new skillset</p>
+              <div className="subheading mb-0">Self Learn: Recent work</div>
               <ul>
                 <li className="mb-2"><strong>This website</strong> Utilizes ReactJS fundamentals such as Stateless Functional Components, JSX and React Router with Bootstrap 4</li>
                 <li className="mb-2"><strong>eCommerce on Ethereum Blockchain</strong> ReactJS, ES6, Web3, MetaMask and Bootstrap 4 for front end with Solidity Smart Contracts deployed on Ethereum blockchain</li>
