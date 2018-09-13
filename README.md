@@ -55,3 +55,25 @@ and under scripts:
 This will make sure the upon deploy, the build script will get the build ready under 'build' directory and Github Pages will publish from that directory.
 
 ---
+
+D3 Force Graph
+---
+
+Incorporating D3 into React is tricky because both D3 and React seek to take control of the DOM.
+Below approach was used for React class component <Graph />
+
+1. Canvas was used to render the D3 animation. This came with unique challenges as it does not work well with Bootstrap responsive design. Responsiveness is introduced with width and height settings that adjust to the viewport (window.inner* specifically)
+
+2. D3 was installed as below in the project directory
+```
+$ npm install d3
+```
+
+3. Import the whole D3 library in react component
+```
+import * as d3 from "d3";
+```
+
+4. Define stateful component Graph and all required D3-force props.
+5. Use render() to render the canvas itself and componentDidMount() to define and create D3 simulation
+---     

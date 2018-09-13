@@ -458,10 +458,10 @@ const About = () => {
               <div className="subheading mb-0">Self Learn and Explore</div>
               <p className="lead mb-5">Continuous learning new skillset</p>
               <ul>
-                <li className="mb-2">This website - utilizes ReactJS fundamentals such as Stateless Functional Components, JSX and React Router with Bootstrap 4</li>
-                <li className="mb-2">eCommerce on Ethereum blockchain - ReactJS, ES6, Web3, MetaMask and Bootstrap 4 for front end with Solidity Smart Contracts deployed on Ethereum blockchain</li>
+                <li className="mb-2"><strong>This website</strong> Utilizes ReactJS fundamentals such as Stateless Functional Components, JSX and React Router with Bootstrap 4</li>
+                <li className="mb-2"><strong>eCommerce on Ethereum Blockchain</strong> ReactJS, ES6, Web3, MetaMask and Bootstrap 4 for front end with Solidity Smart Contracts deployed on Ethereum blockchain</li>
                 <img className="img-fluid img-responsive mx-auto mb-5" src='eCommercedApp.png' alt='eCommerce dApp' />
-                <li className="mb-2">Ethereum Node Graph - implemented with Python3 and D3-force animation. We can observe P2P transactions with clusters formed around exchange contracts</li>
+                <li className="mb-2"><strong>Ethereum Node Graph</strong> Python3 and web3.py to download and dump sample data from ETH mainnet and D3-force animation. We can observe P2P transactions with clusters formed around exchange contracts</li>
                 <Graph />
               </ul>
               <div className="subheading mb-2">Other Interests</div>
