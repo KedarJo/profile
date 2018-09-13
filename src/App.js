@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
 
+import Graph from './Graph'
 import './App.css';
+
 
 const Home = () => {
   return (
@@ -16,13 +18,14 @@ const Home = () => {
             </div>
             <div className='text-justify'>
               <p className="lead mb-4">Hello and Welcome! </p>
-              <p className="lead mb-4">I am Kedar, a consultant/analyst with an eye for detail, appreciation for aesthetics and take pride and satisfaction only when the work is done to the exacting standards. An <a href='https://www.16personalities.com/intj-personality' target="_blank" rel="noopener noreferrer">INTJ</a> personality type. </p>
+              <p className="lead mb-4">I am Kedar, an analyst with an eye for detail, appreciation for aesthetics and take pride and satisfaction only when the work is done to the exacting standards. An <a href='https://www.16personalities.com/intj-personality' target="_blank" rel="noopener noreferrer">INTJ</a> personality type. </p>
               <p className="lead mb-4">My professional interests include product strategy and operations, business analysis, service design, experimenting and implementing digital solutions that enhance product experience.</p>
-              <p className="lead mb-4">I am seasoned professional with <a href='https://kedarjo.github.io/profile/Experience' target="_blank" rel="noopener noreferrer">experience</a> over a decade and half playing various roles that include engineering solutions to business problems, managing multi-million dollar projects and developing and implementing strategic vision for profitable growth of a multi-million dollar professional services portfolio.</p>
+              <p className="lead mb-4">I am seasoned professional with <a href={process.env.PUBLIC_URL + '/Experience'}>experience</a> over a decade and half playing various roles that include engineering solutions to business problems, managing multi-million dollar projects and developing and implementing strategic vision for profitable growth of a multi-million dollar professional services portfolio.</p>
               <p className="lead mb-4">In August of 2017, I decided to part ways with my former employer to devote entire time to an independent research on Decentralized Autonomous Organizations (DAO) using blockchain platform. In the following months, I studied variety of foundational subjects in Computer Science, Social Sciences, Economics and Platform Business models. These theoretical topics helped me develop an in depth understanding of overall blockchain space. Read my <a href="https://medium.com/@kedarnj/case-for-rethinking-tech-services-fd65ec81ca68" target="_blank" rel="noopener noreferrer">Medium Post</a> here. </p>
               <p className="lead mb-4">Amongst the many projects I studied two interesting projects focused on DAO implementation are <a href="https://colony.io/" target="_blank" rel="noopener noreferrer">Colony</a> and <a href="https://daostack.io/" target="_blank" rel="noopener noreferrer">DAOStack</a>. They implement a number of radical ideas around allocating funds to initiatives based on meritocracy. The infrastructure, adoption and scaling will decide their future.</p>
-              <p className="lead mb-4">Along the path I chose, I have picked up a number of new functional and technical <a href='https://kedarjo.github.io/profile/Skills'>skills</a>. I am now ready to bring my past experience, passion for new technology and range of skills to your organization. I will be a great fit for a role that requires business savvy and future technology focus.</p>
+              <p className="lead mb-4">Along the path I chose, I have picked up a number of new functional and technical <a href={process.env.PUBLIC_URL + '/Skills'}>skills</a>. I am now ready to bring my past experience, passion for new technology and range of skills to your organization. I will be a great fit for a role that requires business savvy and future technology focus.</p>
               <p className="lead mb-4">I am seeking to be inspired, envision the future, work hard on interesting problems that make the work meaningful and be surrounded by people who bring out the best in me.</p>
+              <p className="lead mb-4">A bit more <a href={process.env.PUBLIC_URL + '/About'}>about me</a> </p>
               <p className="lead mb-4">Say Hello <a href="mailto:kedarnj@gmail.com">@email</a> </p>
             </div>
           </div>
@@ -458,8 +461,8 @@ const About = () => {
                 <li className="mb-2">This website - utilizes ReactJS fundamentals such as Stateless Functional Components, JSX and React Router with Bootstrap 4</li>
                 <li className="mb-2">eCommerce on Ethereum blockchain - ReactJS, ES6, Web3, MetaMask and Bootstrap 4 for front end with Solidity Smart Contracts deployed on Ethereum blockchain</li>
                 <img className="img-fluid img-responsive mx-auto mb-5" src='eCommercedApp.png' alt='eCommerce dApp' />
-                <li className="mb-2">Ethereum Node interactions - implemented with Python3 and D3.JS. We can observe clustering around exchange nodes.</li>
-                <img className="img-fluid img-responsive mx-auto mb-5" src='ethGraph.png' alt='eth Node Graph' />
+                <li className="mb-2">Ethereum Node Graph - implemented with Python3 and D3-force animation. We can observe P2P transactions with clusters formed around exchange contracts</li>
+                <Graph />
               </ul>
               <div className="subheading mb-2">Other Interests</div>
               <p className="lead mb-5">I live in Charlotte with my wife and 5 year old son. I thoroughly enjoy spending my spare time with my boy. I have a renewed passion for hiking and enjoy taking my family on local hikes. </p>
@@ -488,62 +491,62 @@ class App extends Component {
     return (
       <div>
         <header>
-          <BrowserRouter>
-            <div id='page-top'>
-              <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <BrowserRouter>
+          <div id='page-top'>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
 
-                <a className="navbar-brand" href="#page-top">
-                  <span className="d-block d-lg-none">Kedar Joshi</span>
-                  <span className="d-none d-lg-block">
-                    <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile_alt.png" alt="Kedar's Profile" />
-                  </span>
-                </a>
+              <a className="navbar-brand" href="#page-top">
+                <span className="d-block d-lg-none">Kedar Joshi</span>
+                <span className="d-none d-lg-block">
+                  <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile_alt.png" alt="Kedar's Profile" />
+                </span>
+              </a>
 
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon"></span>
-                </button>
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+              </button>
 
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul className="navbar-nav mr-auto">
+              <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav mr-auto">
 
-                    <li className="nav-item">
-                      <NavLink to={process.env.PUBLIC_URL + '/'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Home</NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink to={process.env.PUBLIC_URL + '/Experience'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Experience</NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink to={process.env.PUBLIC_URL + '/Skills'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Skills</NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink to={process.env.PUBLIC_URL + '/Certifications'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Certifications</NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink to={process.env.PUBLIC_URL + '/Education'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Education</NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink to={process.env.PUBLIC_URL + '/About'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>About Me</NavLink>
-                    </li>
+                  <li className="nav-item">
+                    <NavLink to={process.env.PUBLIC_URL + '/'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Home</NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink to={process.env.PUBLIC_URL + '/Experience'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Experience</NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink to={process.env.PUBLIC_URL + '/Skills'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Skills</NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink to={process.env.PUBLIC_URL + '/Certifications'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Certifications</NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink to={process.env.PUBLIC_URL + '/Education'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Education</NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink to={process.env.PUBLIC_URL + '/About'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>About Me</NavLink>
+                  </li>
 
-                  </ul>
-                </div>
-              </nav>
-              <main>
-                <Switch>
-                  <Route path={process.env.PUBLIC_URL + '/'} component={ Home } exact />
-                  <Route path={process.env.PUBLIC_URL + '/Experience'} component={ Experience } />
-                  <Route path={process.env.PUBLIC_URL + '/Skills'} component={ Skills } />
-                  <Route path={process.env.PUBLIC_URL + '/Certifications'} component={ Certifications } />
-                  <Route path={process.env.PUBLIC_URL + '/Education'} component={ Education } />
-                  <Route path={process.env.PUBLIC_URL + '/About'} component={ About } />
-                  <Route component={ ErrorPath } />
-                </Switch>
-              </main>
-            </div>
-          </BrowserRouter>
+                </ul>
+              </div>
+            </nav>
+            <main>
+              <Switch>
+                <Route path={process.env.PUBLIC_URL + '/'} component={ Home } exact />
+                <Route path={process.env.PUBLIC_URL + '/Experience'} component={ Experience } />
+                <Route path={process.env.PUBLIC_URL + '/Skills'} component={ Skills } />
+                <Route path={process.env.PUBLIC_URL + '/Certifications'} component={ Certifications } />
+                <Route path={process.env.PUBLIC_URL + '/Education'} component={ Education } />
+                <Route path={process.env.PUBLIC_URL + '/About'} component={ About } />
+                <Route component={ ErrorPath } />
+              </Switch>
+            </main>
+          </div>
+        </BrowserRouter>
         </header>
-
         <footer>
+
             <div className="social-icons p-2 d-flex d-column justify-content-center">
               <a href="https://www.linkedin.com/in/kedar-joshi-5648b44b/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin-in"></i>
@@ -556,6 +559,7 @@ class App extends Component {
               </a>
             </div>
             <hr className="m-0" />
+
         </footer>
       </div>
     );
@@ -570,6 +574,7 @@ class App extends Component {
 <p className="lead mb-5">As an engineer and tech lead, I focused on best in class solution design and collaboration with cross functional teams with a true service mindset. </p>
 <img className="img-fluid img-responsive mx-auto mb-2" src='BehaviouralBiasBrain.jpg' alt='BehaviouralBiasBrain' />
 <img className="img-fluid img-responsive mx-auto mb-2" src='storytelling.jpg' alt='storytelling' />
+<img className="img-fluid img-responsive mx-auto mb-5" src='ethGraph.png' alt='eth Node Graph' />
 */
 
 export default App;
