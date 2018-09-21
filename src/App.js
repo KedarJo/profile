@@ -84,7 +84,6 @@ class App extends Component {
         </BrowserRouter>
         </header>
         <footer>
-
             <div className="social-icons p-2 d-flex d-column justify-content-center">
               <a href={ process.env.PUBLIC_URL + '/' }>
                 <i className="fas fa-home"></i>
@@ -100,7 +99,6 @@ class App extends Component {
               </a>
             </div>
             <hr className="m-0" />
-
         </footer>
       </div>
     );

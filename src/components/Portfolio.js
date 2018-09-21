@@ -41,8 +41,8 @@ function Portfolio () {
                   <div className="carousel-item active">
                     <div className="jumbotron">
                       <h3 className="display-4">eCommerce Marketplace dApp</h3>
-                      <p className='text-justify lead'>Very simple implementation to explore dApp development<br/>Disclaimer: UX can be significantly enhanced with clever CSS tricks and off-the-shelf libraries. <br/><br/>The focus of building dApp is as follows:</p>
-                      <br/>
+                      <p className='text-justify lead'>Very simple implementation to explore dApp <br/>Disclaimer: UX can be significantly enhanced.<br/><br/>The focus of building dApp is as follows:</p>
+
                       <ul className='lead'>
                         <li>Build core logic in Marketplace contract</li>
                         <li>Role based access control</li>
@@ -92,19 +92,19 @@ function Portfolio () {
                     <div className="jumbotron">
                       <h4 className="display-4">Benefits</h4>
                       <ul className='lead'>
-                        <li>Decentralized, open source, peer to peer value exchange</li>
-                        <li>Off chain assets are also decentralized via IPFS</li>
-                        <li>Permanent audit trail of all financial and non-financial transactions</li>
-                        <li>Attributable transactions due to use of Public Key Cryptography</li>
-                        <li>Same concept can be extended to any P2P Digital/Physical asset exchange</li>
+                        <li>Decentralized P2P value exchange</li>
+                        <li>Off chain decentralization via IPFS</li>
+                        <li>Permanent audit trail of transactions</li>
+                        <li>Attributable due to PK Crypto</li>
+                        <li>Basis for P2P asset exchanges</li>
                       </ul>
                       <hr/>
                       <h4 className="display-4">Limitations</h4>
                       <ul className='lead'>
-                        <li>Governance / Fiduciary responsibilities have to be cleverly designed</li>
-                        <li>Contract can become large Honey Pot for hackers</li>
-                        <li>User experience has to be optimized to allow longer transaction confirmations</li>
-                        <li>Physical world fulfillment solutions can be integrated with IoT</li>
+                        <li>Design of Governance and Fiduciary </li>
+                        <li>Can become Honey Pot for hackers</li>
+                        <li>Design for longer confirmation times</li>
+                        <li>Physical asset fulfillment solutions</li>
                       </ul>
                     </div>
                   </div>
