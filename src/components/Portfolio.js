@@ -10,14 +10,6 @@ function Portfolio () {
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
             <div className="resume-content mr-auto text-justify">
 
-              <div className="subheading mb-0">Research Paper: Case for Rethinking Tech Services
-                <a href="https://medium.com/@kedarnj/case-for-rethinking-tech-services-fd65ec81ca68" target="_blank" rel="noopener noreferrer">
-                  <span>  <i className="fab fa-medium"></i></span>
-                </a>
-              </div>
-              <p className="lead mb-3">TL;DR The firms exist to control the factors of production and efficiently produce good and services. Intermediation is valuable as it brings efficiencies to the markets. Technology has been a great force behind disintermediation by changing the ways in which means of value creation can be re-intermediated. The rise of internet threw open a lot more possibilities of conducting business.</p>
-              <p className='lead mb-5'>As Digital Technologies take center stage, need for specialized technology services is greater than ever. Platform model and blockchain based technologies hold great promise in providing alternative to enable peer to peer transactions of highly specialized services possible with leaner and more customer centric manner. The article discusses possibilities the future holds.</p>
-
               <div className="subheading mb-0">This Portfolio Website
                 <a href="https://github.com/KedarJo/profile" target="_blank" rel="noopener noreferrer">
                   <span>  <i className="fas fa-code"></i></span>
@@ -98,6 +90,14 @@ function Portfolio () {
               <p><strong>Tech Stack: </strong>Python3, Web3.py, Sqlite, D3-force. <br/> With sample data downloaded from ETH mainnnet with Web3 API we can observe P2P transaction clusters of exchange contracts</p>
               <Graph />
               <p className='mb-5'></p>
+
+              <div className="subheading mb-0">Research Paper: Case for Rethinking Tech Services
+                <a href="https://medium.com/@kedarnj/case-for-rethinking-tech-services-fd65ec81ca68" target="_blank" rel="noopener noreferrer">
+                  <span>  <i className="fab fa-medium"></i></span>
+                </a>
+              </div>
+              <p className="lead mb-3">TL;DR The firms exist to control the factors of production and efficiently produce good and services. Intermediation is valuable as it brings efficiencies to the markets. Technology has been a great force behind disintermediation by changing the ways in which means of value creation can be re-intermediated. The rise of internet threw open a lot more possibilities of conducting business.</p>
+              <p className='lead mb-5'>As Digital Technologies take center stage, need for specialized technology services is greater than ever. Platform model and blockchain based technologies hold great promise in providing alternative to enable peer to peer transactions of highly specialized services possible with leaner and more customer centric manner. The article discusses possibilities the future holds.</p>
 
               <div className="subheading mb-0">CFPB: How are complaints correlated to stock price
                 <a href="" target="_blank" rel="noopener noreferrer">
