@@ -207,12 +207,12 @@ canvas.canvas-graph {
 }
 
 .carousel-inner {
-  height: 60vh;
+  height: 50vh;
 }
 
 @media (min-width: 992px){
   .carousel-inner {
-    height: 80vh;
+    height: 90vh;
   }
 }
 
@@ -237,6 +237,12 @@ canvas.canvas-graph {
     max-width: 12px;
     margin: 0 3px;
     height: 12px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
 }
 
 /*Retain Original

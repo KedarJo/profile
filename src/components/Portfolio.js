@@ -39,19 +39,19 @@ function Portfolio () {
                   </div>
                   <div className="carousel-item">
                     <img className="img-fluid img-responsive mx-auto d-block " src="./img/register.png" alt="Second slide" />
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption">
                       <h5>Customer can register as Store Owner</h5>
                     </div>
                   </div>
                   <div className="carousel-item">
                     <img className="img-fluid img-responsive mx-auto d-block " src="./img/adminApprove.png" alt="Third slide" />
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption">
                       <h5>Admin to Review & Approve</h5>
                     </div>
                   </div>
                   <div className="carousel-item">
                     <img className="img-fluid img-responsive mx-auto d-block " src="./img/storesCreated.png" alt="Fourth slide" />
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption">
                       <h5>Approved Store Owners Create Stores & List Items</h5>
                     </div>
                   </div>
@@ -60,13 +60,13 @@ function Portfolio () {
                   </div>
                   <div className="carousel-item">
                     <img className="img-fluid img-responsive mx-auto d-block " src="./img/customersShop.png" alt="Sixth slide" />
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption">
                       <h5>Customers Browse and Shop | Pay to Smart Contract</h5>
                     </div>
                   </div>
                   <div className="carousel-item">
                     <img className="img-fluid img-responsive mx-auto d-block " src="./img/adminPayApprove.png" alt="Seventh slide" />
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption">
                       <h5>Admin to review and approve payment to stores</h5>
                     </div>
                   </div>
