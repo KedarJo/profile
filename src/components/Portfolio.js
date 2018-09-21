@@ -15,6 +15,7 @@ function Portfolio () {
                   <span>  <i className="fas fa-code"></i></span>
                 </a>
               </div>
+              <p><strong>Objective:</strong> Build personal brand. Demonstrate new skillset by hands-on concept to delivery.</p>
               <p className='mb-5'><strong>Tech Stack: </strong>ReactJS, React Router, Functional and Class components, JSX, Bootstrap 4, D3JS</p>
               <hr />
               <div className="subheading mb-0">Emerging Tech: eCommerce on Blockchain
@@ -22,6 +23,7 @@ function Portfolio () {
                   <span>  <i className="fas fa-code"></i></span>
                 </a>
               </div>
+              <p><strong>Objective:</strong> Explore application of dis-intermediation via hands-on smart contract dApp development for a simple use case.</p>
               <p><strong>Tech Stack: </strong>(Ganache-CLI dev sandbox) ReactJS, ES6, Web3JS and Bootstrap 4, Solidity Smart Contracts, IPFS, MetaMask</p>
               <div id="carouselETHMarketplace" className="carousel slide mb-3" data-ride="carousel">
                 <ol className="carousel-indicators carousel-indicators--round">
@@ -32,9 +34,24 @@ function Portfolio () {
                   <li data-target="#carouselETHMarketplace" data-slide-to="4"></li>
                   <li data-target="#carouselETHMarketplace" data-slide-to="5"></li>
                   <li data-target="#carouselETHMarketplace" data-slide-to="6"></li>
+                  <li data-target="#carouselETHMarketplace" data-slide-to="7"></li>
+                  <li data-target="#carouselETHMarketplace" data-slide-to="8"></li>
                 </ol>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
+                    <div className="jumbotron">
+                      <h3 className="display-4">eCommerce Marketplace dApp</h3>
+                      <p className='text-justify lead'>Very simple implementation to explore dApp development<br/>Disclaimer: UX can be significantly enhanced with clever CSS tricks and off-the-shelf libraries. <br/><br/>The focus of building dApp is as follows:</p>
+                      <br/>
+                      <ul className='lead'>
+                        <li>Build core logic in Marketplace contract</li>
+                        <li>Role based access control</li>
+                        <li>Contract safety features</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
                     <img className="img-fluid img-responsive mx-auto d-block " src="./img/StoreOwnerRegistration.png" alt="First slide" />
                   </div>
                   <div className="carousel-item">
@@ -70,11 +87,31 @@ function Portfolio () {
                       <h5>Admin to review and approve payment to stores</h5>
                     </div>
                   </div>
+
+                  <div className="carousel-item">
+                    <div className="jumbotron">
+                      <h4 className="display-4">Benefits</h4>
+                      <ul className='lead'>
+                        <li>Decentralized, open source, peer to peer value exchange</li>
+                        <li>Off chain assets are also decentralized via IPFS</li>
+                        <li>Permanent audit trail of all financial and non-financial transactions</li>
+                        <li>Attributable transactions due to use of Public Key Cryptography</li>
+                        <li>Same concept can be extended to any P2P Digital/Physical asset exchange</li>
+                      </ul>
+                      <hr/>
+                      <h4 className="display-4">Limitations</h4>
+                      <ul className='lead'>
+                        <li>Governance / Fiduciary responsibilities have to be cleverly designed</li>
+                        <li>Contract can become large Honey Pot for hackers</li>
+                        <li>User experience has to be optimized to allow longer transaction confirmations</li>
+                        <li>Physical world fulfillment solutions can be integrated with IoT</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselETHMarketplace"  data-slide="prev">
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span className="sr-only">Previous</span>
-
                 </a>
                 <a className="carousel-control-next" href="#carouselETHMarketplace" role="button"  data-slide="next">
                   <span className="carousel-control-next-icon" aria-hidden="true"></span>
@@ -82,11 +119,13 @@ function Portfolio () {
                 </a>
               </div>
               <hr />
+
               <div className="subheading mb-0">Emerging Tech: ETH Node Graph Analysis
                 <a href="https://github.com/KedarJo/ethScan" target="_blank" rel="noopener noreferrer">
                   <span>  <i className="fas fa-code"></i></span>
                 </a>
               </div>
+              <p><strong>Objective:</strong> Explore inter-account interactions and value exchanges on Ethereum mainnet</p>
               <p><strong>Tech Stack: </strong>Python3, Web3.py, Sqlite, D3-force. <br/> With sample data downloaded from ETH mainnnet with Web3 API we can observe P2P transaction clusters of exchange contracts</p>
               <Graph />
               <p className='mb-5'></p>
