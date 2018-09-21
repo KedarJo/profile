@@ -86,6 +86,9 @@ class App extends Component {
         <footer>
 
             <div className="social-icons p-2 d-flex d-column justify-content-center">
+              <a href={ process.env.PUBLIC_URL + '/' }>
+                <i className="fas fa-home"></i>
+              </a>
               <a href="https://www.linkedin.com/in/kedar-joshi-5648b44b/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin-in"></i>
               </a>
