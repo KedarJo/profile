@@ -11,7 +11,7 @@ class Graph extends Component {
       canWidth: null,
       canHeight: null,
       simulation: null,
-      toggle: true,
+      color: null,
     }
 
     this.ticked = this.ticked.bind(this)
@@ -28,6 +28,8 @@ class Graph extends Component {
   drawNode(d) {
     this.context.moveTo(d.x + 3, d.y);
     this.context.arc(d.x, d.y, 7, 0, 2 * Math.PI);
+    //this.context.fillstyle = this.color(d.value);
+    //console.log(this.color(d.value))
   }
 
   ticked() {
@@ -47,11 +49,11 @@ class Graph extends Component {
   }
 
   componentDidMount() {
-    console.log('componentDidMount')
      this.canvas = document.querySelector('#GraphCanvas')
      this.context = this.canvas.getContext('2d')
      this.canWidth = this.canvas.width
      this.canHeight = this.canvas.height
+     this.color = d3.scaleOrdinal(d3.schemeCategory10)
 
      this.simulation = d3.forceSimulation()
          .force("link", d3.forceLink().id(function(d) { return d.id; }))
@@ -67,12 +69,13 @@ class Graph extends Component {
   }
 
 
-
   reloadGraph() {
+
     this.canvas = document.querySelector('#GraphCanvas')
     this.context = this.canvas.getContext('2d')
     this.canWidth = this.canvas.width
     this.canHeight = this.canvas.height
+    this.color = d3.scaleOrdinal(d3.schemeCategory10)
 
     this.simulation = d3.forceSimulation()
         .force("link", d3.forceLink().id(function(d) { return d.id; }))
@@ -90,16 +93,19 @@ class Graph extends Component {
   }
 
   render() {
-    console.log('render')
+    
     return (
       <div>
         <button type="button" className="btn btn-outline-dark" onClick={this.reloadGraph}>
-          <i className="fas fa-play"></i> Push
+          <i className="fas fa-play"></i>
         </button>
         <canvas id='GraphCanvas' width={window.innerWidth * 0.65} height={window.innerHeight * 0.9}>Return</canvas>
       </div>
     )
   }
 }
+/*
+<canvas id='GraphCanvas' width={window.innerWidth * 0.65} height={window.innerHeight * 0.9}>Return</canvas>
+*/
 
 export default Graph;
