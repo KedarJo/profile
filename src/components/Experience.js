@@ -10,7 +10,7 @@ function Experience() {
           <div className="resume-content mr-auto">
             <h3 className="mb-0">Independent, Blockchain & Data Science</h3>
             <div className="subheading mb-3">Independent</div>
-            <p>Developed skills in emerging tech such as Data Science and Blockchain with training in number of foundational subjects. <br /><br />Pursued independent research and projects.</p>
+            <p>Developed skills in emerging tech such as Data Science and Blockchain with training in number of foundational subjects. <br /><br />Pursued independent research and projects. Find my <a href={process.env.PUBLIC_URL + '/Portfolio'}>recent work</a> and new <a href={process.env.PUBLIC_URL + '/Skills'}>skills</a>.</p>
           </div>
           <div className="resume-date text-md-right">
             <span className="text-primary">Sep 2017 - Present</span>
