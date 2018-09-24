@@ -20,13 +20,13 @@ function Home() {
                   <li>Front end web development</li>
                   <li>SOA / Microservices / API (WIP Skill development: Service Mesh with Istio)</li>
                   <li>Blockchain implementation</li>
-                  <li>Data analysis, Visualization, Data Science</li>
+                  <li>Data collection, analysis, visualization and beyond</li>
                 </ul>
               </p>
               <p className="lead mb-4">I can also help you with:
                 <ul>
-                  <li>Business Case development</li>
-                  <li>KPI driven Project Management</li>
+                  <li>Data Collection, Data Analysis and Reporting</li>
+                  <li>Help with KPI driven Project Management</li>
                   <li>RFP/Vendor management</li>
                   <li>Offshore team management</li>
                 </ul>

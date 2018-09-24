@@ -12,6 +12,12 @@ function Certifications() {
               <a href='https://www.coursera.org/account/accomplishments/specialization/PKA6X3SMF9VE' target='_blank' rel="noopener noreferrer">
                 Python for Everybody Specialization
               </a> - University of Michigan</li>
+
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              <a href='https://www.coursera.org/account/accomplishments/specialization/PKA6X3SMF9VE' target='_blank' rel="noopener noreferrer">
+                Python for Everybody Specialization
+              </a> - University of Michigan</li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
               <a href='https://www.coursera.org/account/accomplishments/verify/LXCDRD8L748L' target='_blank' rel="noopener noreferrer">
