@@ -42,6 +42,20 @@ function Certifications() {
                 - Princeton University</li>
 
           </ul>
+          <hr/>
+          <h2 className="mb-5">Upcoming Certifications</h2>
+          <ul className="fa-ul mb-0">
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Applied Machine Learning in Python - University of Michigan</li>
+          <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Platform Strategy for Business - University of Boston</li>
+          <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Microservices with Istio and IBM Cloud Kubernetes Service - IBM Acclaim</li>
+
+          </ul>
         </div>
 
       </section>
