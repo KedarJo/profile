@@ -25,10 +25,10 @@ function Home() {
               </p>
               <p className="lead mb-4">I can also help you with:
                 <ul>
-                  <li>Data Collection, Data Analysis and Reporting</li>
+                  <li>Liaise for technology teams with relationship focus</li>
+                  <li>Requirement collection and documentation</li>
                   <li>Help with KPI driven Project Management</li>
                   <li>RFP/Vendor management</li>
-                  <li>Offshore team management</li>
                 </ul>
               </p>
               <p className="lead mb-4">My professional interests include product strategy and operations, business analysis, service design, experimenting and implementing digital solutions that enhance product experience. </p>
