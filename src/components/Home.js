@@ -15,22 +15,27 @@ function Home() {
               <p className="lead mb-4">Hello and Welcome! </p>
               <p className="lead mb-4">I am Kedar, an analyst / consultant with an eye for detail, appreciation for aesthetics and take pride and satisfaction only when the work is done to the exacting standards. </p>
               <p className="lead mb-4">I have past <a href={process.env.PUBLIC_URL + '/Experience'}>experience</a> in Retail Brokerage/Wealth Management domain. I have an overall experience of a decade and half as a developer, delivery manager and account/engagement manager. </p>
-              <p className="lead mb-4">With my <a href={process.env.PUBLIC_URL + '/Portfolio'}>recent work</a> and new <a href={process.env.PUBLIC_URL + '/Skills'}>skills</a> I can help you with the projects that involve:
+              <div className="mb-4">
+                <p className="lead">With my <a href={process.env.PUBLIC_URL + '/Portfolio'}>recent work</a> and new <a href={process.env.PUBLIC_URL + '/Skills'}>skills</a> I can help you with the projects that involve:</p>
                 <ul>
                   <li>Front end web development</li>
                   <li>SOA / Microservices / API (WIP Skill development: Service Mesh with Istio)</li>
                   <li>Blockchain implementation</li>
                   <li>Data collection, analysis, visualization and beyond</li>
                 </ul>
-              </p>
-              <p className="lead mb-4">I can also help you with:
+              </div>
+              <div className="mb-4">
+                <p className="lead">I can also help you with:</p>
                 <ul>
-                  <li>Liaise for technology teams with relationship focus</li>
-                  <li>Requirement collection and documentation</li>
-                  <li>Help with KPI driven Project Management</li>
+                  <li>Liaising for technology teams with relationship focus</li>
+                  <li>Understanding strategic business goals and needs</li>
+                  <li>Developing business cases with cost-benefit analysis</li>
+                  <li>KPI driven Project Management, Budgeting and Progress Tracking</li>
+                  <li>Coaching / Knowledge Sharing with other team members</li>
                   <li>RFP/Vendor management</li>
                 </ul>
-              </p>
+              </div>
+
               <p className="lead mb-4">My professional interests include product strategy and operations, business analysis, service design, experimenting and implementing digital solutions that enhance product experience. </p>
               <p className="lead mb-4">I love learning by being hands on and help teams achieve their goals. I am a great fit for any role that sits at the intersection of business savvy and technology.</p>
               <p className="lead mb-4">Find a bit more <a href={process.env.PUBLIC_URL + '/About'}>about me</a>.</p>

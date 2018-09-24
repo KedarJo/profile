@@ -130,28 +130,32 @@ function Portfolio () {
               <Graph />
               <p className='mb-5'></p>
               <hr />
-              <div className="subheading mb-0">Independent Research: Case for Rethinking Tech Services
-                <a href="https://medium.com/@kedarnj/case-for-rethinking-tech-services-fd65ec81ca68" target="_blank" rel="noopener noreferrer">
-                  <span>  <i className="fab fa-medium"></i></span>
-                </a>
-              </div>
-              <p className="lead mb-3">TL;DR The firms exist to control the factors of production and efficiently produce good and services. Intermediation is valuable as it brings efficiencies to the markets. Technology has been a great force behind disintermediation by changing the ways in which means of value creation can be re-intermediated. The rise of internet threw open a lot more possibilities of conducting business.</p>
-              <p className='lead mb-5'>As Digital Technologies take center stage, need for specialized technology services is greater than ever. Platform model and blockchain based technologies hold great promise in providing alternative to enable peer to peer transactions of highly specialized services possible with leaner and more customer centric manner. The article discusses possibilities the future holds.</p>
-              <hr />
               <div className="subheading mb-0">CFPB: How are complaints correlated to stock price
                 <a href="" target="_blank" rel="noopener noreferrer">
                   <span>  <i className="fas fa-code"></i></span>
                 </a>
               </div>
               <p><strong>Tech Stack: </strong>Python3 for Data Science - numpy, scipy, pandas, matplotlib, D3</p>
-              <p className='mb-5'>Coming soon...</p>
+              <p>D3 visulization Coming soon...</p>
+              <p>A very weak negative correlation is observed. This can certainly be a feature to consider for Supervised Learning, however other features with stronger correlation must be discovered</p>
+              <img className="img-fluid img-responsive mx-auto d-block " src="./img/Complaints.png" alt="matplotlib visual" />
+              <p className='mb-5'></p>
               <hr />
+              <div className="subheading mb-0">Independent Research: Case for Rethinking Tech Services
+                <a href="https://medium.com/@kedarnj/case-for-rethinking-tech-services-fd65ec81ca68" target="_blank" rel="noopener noreferrer">
+                  <span>  <i className="fab fa-medium"></i></span>
+                </a>
+              </div>
+              <p className="mb-3">TL;DR The firms exist to control the factors of production and efficiently produce good and services. Intermediation is valuable as it brings efficiencies to the markets. Technology has been a great force behind disintermediation by changing the ways in which means of value creation can be re-intermediated. The rise of internet threw open a lot more possibilities of conducting business.</p>
+              <p className='mb-5'>As Digital Technologies take center stage, need for specialized technology services is greater than ever. Platform model and blockchain based technologies hold great promise in providing alternative to enable peer to peer transactions of highly specialized services possible with leaner and more customer centric manner. The article discusses possibilities the future holds.</p>
+              <hr />
+
               <div className="subheading mb-0">Earnings Report Dashboard
                 <a href="" target="_blank" rel="noopener noreferrer">
                   <span>  <i className="fas fa-code"></i></span>
                 </a>
               </div>
-              <p><strong>Tech Stack: </strong>Python3 for accounting - Edgar XLBR, BeautifulSoup, D3</p>
+              <p><strong>Tech Stack: </strong>Python3 for accounting - Edgar XBRL paring with Python BeautifulSoup, Visualization with D3</p>
               <p className='mb-5'>Coming soon...</p>
               <hr />
             </div>
