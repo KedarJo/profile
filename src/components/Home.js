@@ -14,8 +14,7 @@ function Home() {
             <div className='text-justify'>
               <p className="lead mb-4">Hello and Welcome! </p>
               <p className="lead mb-4">I am Kedar, an analyst, consultant with an eye for detail, appreciation for aesthetics and take pride and satisfaction only when the work is done to the exacting standards. </p>
-              <p className="lead mb-4">My professional interests include product strategy and operations, business analysis, service design, experimenting and implementing digital solutions that enhance product experience. </p>
-              <p className="lead mb-4">I have past <a href={process.env.PUBLIC_URL + '/Experience'}>experience</a> on project in Retail Brokerage / Wealth Management domain.</p>
+              <p className="lead mb-4">I have past <a href={process.env.PUBLIC_URL + '/Experience'}>experience</a> in Retail Brokerage/Wealth Management domain. I have an overall experience of a decade and half as a developer, delivery manager and account/engagement manager. </p>
               <p className="lead mb-4">With my <a href={process.env.PUBLIC_URL + '/Portfolio'}>recent work</a> and new <a href={process.env.PUBLIC_URL + '/Skills'}>skills</a> I can help you with the projects that involve:
                 <ul>
                   <li>Front end web development</li>
@@ -32,6 +31,7 @@ function Home() {
                   <li>Offshore team management</li>
                 </ul>
               </p>
+              <p className="lead mb-4">My professional interests include product strategy and operations, business analysis, service design, experimenting and implementing digital solutions that enhance product experience. </p>
               <p className="lead mb-4">I love learning by being hands on and help teams achieve their goals. I am a great fit for any role that sits at the intersection of business savvy and technology.</p>
               <p className="lead mb-4">Find a bit more <a href={process.env.PUBLIC_URL + '/About'}>about me</a>.</p>
               <p className="lead mb-4">Say Hello <a href="mailto:kedarnj@gmail.com">@email</a> </p>
