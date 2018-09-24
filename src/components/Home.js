@@ -13,7 +13,7 @@ function Home() {
             </div>
             <div className='text-justify'>
               <p className="lead mb-4">Hello and Welcome! </p>
-              <p className="lead mb-4">I am Kedar, an analyst, consultant with an eye for detail, appreciation for aesthetics and take pride and satisfaction only when the work is done to the exacting standards. </p>
+              <p className="lead mb-4">I am Kedar, an analyst / consultant with an eye for detail, appreciation for aesthetics and take pride and satisfaction only when the work is done to the exacting standards. </p>
               <p className="lead mb-4">I have past <a href={process.env.PUBLIC_URL + '/Experience'}>experience</a> in Retail Brokerage/Wealth Management domain. I have an overall experience of a decade and half as a developer, delivery manager and account/engagement manager. </p>
               <p className="lead mb-4">With my <a href={process.env.PUBLIC_URL + '/Portfolio'}>recent work</a> and new <a href={process.env.PUBLIC_URL + '/Skills'}>skills</a> I can help you with the projects that involve:
                 <ul>
