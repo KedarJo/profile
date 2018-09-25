@@ -16,6 +16,49 @@ function Skills() {
         <h2 className="mb-5">Skills</h2>
         </CSSTransitionGroup>
 
+          <div className="subheading mb-3 text-justify">Leadership and Management</div>
+            <ul className="fa-ul mb-0">
+              <li>
+                <i className="fa-li fa fa-check"></i>
+                Developing and executing a strategic vision that enables long-term profitable growth of market share</li>
+              <li>
+                <i className="fa-li fa fa-check"></i>
+                Design Service touchpoints understanding customer journey map</li>
+              <li>
+                <i className="fa-li fa fa-check"></i>
+                Execution of strategic plans and implementing best-in-class processes to drive high quality deliverables while contributing to high bottom line profitability</li>
+              <li>
+                <i className="fa-li fa fa-check"></i>
+                Team Leadership, People Management, Project Management </li>
+            </ul>
+            <hr/>
+
+          <div className="subheading mb-3">Communication Tools</div>
+            <ul className="list-inline dev-icons">
+              <li className="list-inline-item">
+                <i className="fas fa-file-word"></i>
+              </li>
+              <li className="list-inline-item">
+                <i className="fas fa-file-excel"></i>
+              </li>
+              <li className="list-inline-item">
+                <i className="fas fa-file-powerpoint"></i>
+              </li>
+              <li className="list-inline-item">
+                <i className="fas fa-envelope"></i>
+              </li>
+              <li className="list-inline-item">
+                <i className="fab fa-skype"></i>
+              </li>
+              <li className="list-inline-item">
+                <i className="fab fa-slack"></i>
+              </li>
+              <li className="list-inline-item">
+                <i className="fab fa-whatsapp-square"></i>
+              </li>
+            </ul>
+            <hr/>
+
             <div className="subheading mb-3">Programming Languages &amp; Tools</div>
               <ul className="list-inline dev-icons">
                 <li className="list-inline-item">
@@ -124,48 +167,6 @@ function Skills() {
               Use predict / evaluate cycles to find best fit</li>
           </ul>
 
-          <div className="subheading mb-3 text-justify">Leadership and Management</div>
-            <ul className="fa-ul mb-0">
-              <li>
-                <i className="fa-li fa fa-check"></i>
-                Developing and executing a strategic vision that enables long-term profitable growth of market share</li>
-              <li>
-                <i className="fa-li fa fa-check"></i>
-                Design Service touchpoints understanding customer journey map</li>
-              <li>
-                <i className="fa-li fa fa-check"></i>
-                Execution of strategic plans and implementing best-in-class processes to drive high quality deliverables while contributing to high bottom line profitability</li>
-              <li>
-                <i className="fa-li fa fa-check"></i>
-                Team Leadership and People Management </li>
-            </ul>
-            <hr/>
-
-          <div className="subheading mb-3">Communication Tools</div>
-            <ul className="list-inline dev-icons">
-              <li className="list-inline-item">
-                <i className="fas fa-file-word"></i>
-              </li>
-              <li className="list-inline-item">
-                <i className="fas fa-file-excel"></i>
-              </li>
-              <li className="list-inline-item">
-                <i className="fas fa-file-powerpoint"></i>
-              </li>
-              <li className="list-inline-item">
-                <i className="fas fa-envelope"></i>
-              </li>
-              <li className="list-inline-item">
-                <i className="fab fa-skype"></i>
-              </li>
-              <li className="list-inline-item">
-                <i className="fab fa-slack"></i>
-              </li>
-              <li className="list-inline-item">
-                <i className="fab fa-whatsapp-square"></i>
-              </li>
-            </ul>
-            <hr/>
 
       </section>
       <hr className="m-0" />

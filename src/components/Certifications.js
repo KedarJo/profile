@@ -65,7 +65,7 @@ function Certifications() {
             transitionEnter={false}
             transitionLeave={false}>
 
-          <h2 className="mb-5">Upcoming Certifications</h2>
+          <h3 className="mb-4">Upcoming Certifications</h3>
           </CSSTransitionGroup>
           <ul className="fa-ul mb-0">
             <li>
