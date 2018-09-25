@@ -124,7 +124,7 @@ function Skills() {
               Use predict / evaluate cycles to find best fit</li>
           </ul>
 
-          <div className="subheading mb-3 text-justify">Management</div>
+          <div className="subheading mb-3 text-justify">Leadership and Management</div>
             <ul className="fa-ul mb-0">
               <li>
                 <i className="fa-li fa fa-check"></i>
