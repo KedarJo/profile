@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import { CSSTransitionGroup } from 'react-transition-group'
+
 import Graph from './Graph'
 import Infura from './Infura'
 
@@ -7,6 +9,14 @@ function Portfolio () {
     <div className="container-fluid p-0">
       <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
         <div className="my-auto">
+          <CSSTransitionGroup
+            transitionName="example"
+            transitionAppear={true}
+            transitionAppearTimeout={500}
+            transitionEnter={false}
+            transitionLeave={false}>
+          <h2 className="mb-0">Recent Work</h2>
+          </CSSTransitionGroup>
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
             <div className="resume-content mr-auto text-justify">
 

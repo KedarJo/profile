@@ -1,10 +1,20 @@
 import React, {Component} from 'react';
+import { CSSTransitionGroup } from 'react-transition-group'
+
 
 function Skills() {
   return (
     <div className="container-fluid p-0">
       <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <CSSTransitionGroup
+          transitionName="example"
+          transitionAppear={true}
+          transitionAppearTimeout={500}
+          transitionEnter={false}
+          transitionLeave={false}>
+
         <h2 className="mb-5">Skills</h2>
+        </CSSTransitionGroup>
 
             <div className="subheading mb-3">Programming Languages &amp; Tools</div>
               <ul className="list-inline dev-icons">

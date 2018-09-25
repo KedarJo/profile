@@ -1,16 +1,26 @@
 import React, {Component} from 'react';
+import { CSSTransitionGroup } from 'react-transition-group'
 
 function Home() {
   return (
     <div className="container-fluid p-0">
         <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
           <div className="my-auto">
+          <CSSTransitionGroup
+            transitionName="example"
+            transitionAppear={true}
+            transitionAppearTimeout={500}
+            transitionEnter={false}
+            transitionLeave={false}>
+
             <h1 className="mb-0">Kedar
               <span className="text-primary"> Joshi</span>
             </h1>
+
             <div className="subheading mb-5">Charlotte, NC · (980) 226-3028 ·
               <a href="mailto:kedarnj@gmail.com">kedarnj@gmail.com</a>
             </div>
+            </CSSTransitionGroup>
             <div className='text-justify'>
               <p className="lead mb-4">Hello and Welcome! </p>
               <p className="lead mb-4">I am Kedar, an analyst / consultant with an eye for detail, appreciation for aesthetics and take pride and satisfaction only when the work is done to the exacting standards. </p>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
+import { CSSTransitionGroup } from 'react-transition-group'
 
 import Home from './components/Home'
 import Portfolio from './components/Portfolio'
@@ -8,6 +9,7 @@ import Skills from './components/Skills'
 import Certifications from './components/Certifications'
 import Education from './components/Education'
 import About from './components/About'
+
 
 import './App.css';
 

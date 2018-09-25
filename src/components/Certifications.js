@@ -1,11 +1,21 @@
 import React, {Component} from 'react';
+import { CSSTransitionGroup } from 'react-transition-group'
+
 
 function Certifications() {
   return (
     <div className="container-fluid p-0">
       <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div className="my-auto">
+        <CSSTransitionGroup
+          transitionName="example"
+          transitionAppear={true}
+          transitionAppearTimeout={500}
+          transitionEnter={false}
+          transitionLeave={false}>
+
           <h2 className="mb-5">Technical Certifications</h2>
+        </CSSTransitionGroup>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
@@ -48,7 +58,15 @@ function Certifications() {
 
           </ul>
           <hr/>
+          <CSSTransitionGroup
+            transitionName="example"
+            transitionAppear={true}
+            transitionAppearTimeout={500}
+            transitionEnter={false}
+            transitionLeave={false}>
+
           <h2 className="mb-5">Upcoming Certifications</h2>
+          </CSSTransitionGroup>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
