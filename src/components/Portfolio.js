@@ -141,7 +141,7 @@ function Portfolio () {
               <p className='mb-5'></p>
               <hr />
               <div className="subheading mb-0">CFPB complaints as feature to predict stock price
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/KedarJo/CFPB-Complaints" target="_blank" rel="noopener noreferrer">
                   <span>  <i className="fab fa-github-alt"></i></span>
                 </a>
               </div>
