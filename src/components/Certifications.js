@@ -9,10 +9,9 @@ function Certifications() {
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              <a href='https://www.coursera.org/account/accomplishments/specialization/PKA6X3SMF9VE' target='_blank' rel="noopener noreferrer">
-                Python for Everybody Specialization
+              <a href='https://www.coursera.org/account/accomplishments/certificate/NJ6HX78TLSJQ' target='_blank' rel="noopener noreferrer">
+                Applied Machine Learning in Python
               </a> - University of Michigan</li>
-
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
               <a href='https://www.coursera.org/account/accomplishments/specialization/PKA6X3SMF9VE' target='_blank' rel="noopener noreferrer">
@@ -53,11 +52,11 @@ function Certifications() {
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Applied Machine Learning in Python - University of Michigan</li>
-          <li>
+              R3 Corda Certified Developer - IBM Acclaim</li>
+            <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Platform Strategy for Business - University of Boston</li>
-          <li>
+              Platform Strategy for Business - University of Boston, Questrom School of Business</li>
+            <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
               Microservices with Istio and IBM Cloud Kubernetes Service - IBM Acclaim</li>
 

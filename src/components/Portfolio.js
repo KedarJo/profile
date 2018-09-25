@@ -12,7 +12,7 @@ function Portfolio () {
 
               <div className="subheading mb-0">This Portfolio Website
                 <a href="https://github.com/KedarJo/profile" target="_blank" rel="noopener noreferrer">
-                  <span>  <i className="fas fa-code"></i></span>
+                  <span>  <i className="fab fa-github-alt"></i></span>
                 </a>
               </div>
               <p><strong>Objective:</strong> Build personal brand. Demonstrate new skillset by hands-on concept to delivery.</p>
@@ -20,7 +20,7 @@ function Portfolio () {
               <hr />
               <div className="subheading mb-0">Emerging Tech: eCommerce on Blockchain
                 <a href="https://github.com/KedarJo/marketplace" target="_blank" rel="noopener noreferrer">
-                  <span>  <i className="fas fa-code"></i></span>
+                  <span>  <i className="fab fa-github-alt"></i></span>
                 </a>
               </div>
               <p><strong>Objective:</strong> Explore application of dis-intermediation via hands-on smart contract dApp development for a simple use case.</p>
@@ -122,7 +122,7 @@ function Portfolio () {
 
               <div className="subheading mb-0">Emerging Tech: ETH Node Graph Analysis
                 <a href="https://github.com/KedarJo/ethScan" target="_blank" rel="noopener noreferrer">
-                  <span>  <i className="fas fa-code"></i></span>
+                  <span>  <i className="fab fa-github-alt"></i></span>
                 </a>
               </div>
               <p><strong>Objective:</strong> Explore inter-account interactions and value exchanges on Ethereum mainnet</p>
@@ -130,9 +130,9 @@ function Portfolio () {
               <Graph />
               <p className='mb-5'></p>
               <hr />
-              <div className="subheading mb-0">CFPB: How are complaints correlated to stock price
+              <div className="subheading mb-0">CFPB complaints as feature to predict stock price
                 <a href="" target="_blank" rel="noopener noreferrer">
-                  <span>  <i className="fas fa-code"></i></span>
+                  <span>  <i className="fab fa-github-alt"></i></span>
                 </a>
               </div>
               <p><strong>Tech Stack: </strong>Python3 for Data Science - numpy, scipy, pandas, matplotlib, D3</p>
@@ -151,8 +151,8 @@ function Portfolio () {
               <hr />
 
               <div className="subheading mb-0">Earnings Report Dashboard
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <span>  <i className="fas fa-code"></i></span>
+                <a href="#">
+                  <span>  <i className="fab fa-github-alt"></i></span>
                 </a>
               </div>
               <p><strong>Tech Stack: </strong>Python3 for accounting - Edgar XBRL paring with Python BeautifulSoup, Visualization with D3</p>

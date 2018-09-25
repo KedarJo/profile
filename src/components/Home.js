@@ -21,7 +21,7 @@ function Home() {
                   <li>Front end web development</li>
                   <li>SOA / Microservices / API (WIP Skill development: Service Mesh with Istio)</li>
                   <li>Blockchain implementation</li>
-                  <li>Data collection, analysis, visualization and beyond</li>
+                  <li>Data collection, analysis, visualization, Machine Learning</li>
                 </ul>
               </div>
               <div className="mb-4">
