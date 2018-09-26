@@ -293,6 +293,21 @@ canvas.canvas-graph {
   transition: opacity .5s ease-in;
 }
 
+@media (min-width: 992px){
+  .crypto-card {
+    width: 20vw;
+
+  }
+  .card {display: inline-block;}
+}
+
+@media (max-width: 550px){
+  .crypto-card {
+    width: 90vw;
+    display: inline-block;
+  }
+}
+
 /*Retain Original
 
 .App {

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { CSSTransitionGroup } from 'react-transition-group'
 
+
 import Graph from './Graph'
 import Infura from './Infura'
 
@@ -19,7 +20,6 @@ function Portfolio () {
           </CSSTransitionGroup>
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
             <div className="resume-content mr-auto text-justify">
-
               <div className="subheading mb-0">This Portfolio Website
                 <a href="https://github.com/KedarJo/profile" target="_blank" rel="noopener noreferrer">
                   <span>  <i className="fab fa-github-alt"></i></span>
@@ -28,6 +28,13 @@ function Portfolio () {
               <p><strong>Objective:</strong> Build personal brand. Demonstrate new skillset by hands-on concept to delivery.</p>
               <p className='mb-5'><strong>Tech Stack: </strong>ReactJS, React Router, Functional and Class components, JSX, Bootstrap 4, D3JS</p>
               <hr />
+
+              <div className="subheading mb-0">Crypto Prices</div>
+              <p><strong>Objective:</strong> Simple Rest API call for prices of top crypto.</p>
+              <Infura />
+              <p className='mb-5'></p>
+              <hr />
+
               <div className="subheading mb-0">Emerging Tech: eCommerce on Blockchain
                 <a href="https://github.com/KedarJo/marketplace" target="_blank" rel="noopener noreferrer">
                   <span>  <i className="fab fa-github-alt"></i></span>
@@ -135,6 +142,7 @@ function Portfolio () {
                   <span>  <i className="fab fa-github-alt"></i></span>
                 </a>
               </div>
+
               <p><strong>Objective:</strong> Explore inter-account interactions and value exchanges on Ethereum mainnet</p>
               <p><strong>Tech Stack: </strong>Python3, Web3.py, Sqlite, D3-force. <br/> With sample data downloaded from ETH mainnnet with Web3 API we can observe P2P transaction clusters of exchange contracts</p>
               <Graph />
