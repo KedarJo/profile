@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Web3 from 'web3';
 import axios from 'axios';
 import NumberFormat from 'react-number-format';
+import { CSSTransitionGroup } from 'react-transition-group'
 
 class Infura extends Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class Infura extends Component {
 
   loadCrypto() {
     let getCryptoPrice = new Promise((resolve, reject) => {
-      const result = axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH,LTC&tsyms=USD')
+      const result = axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH,XRP&tsyms=USD')
       resolve(result)
     });
 
@@ -55,10 +56,13 @@ class Infura extends Component {
         </button>
         <br />
         <br />
-
+        <CSSTransitionGroup
+          transitionName="example"
+          transitionEnterTimeout={500}
+          transitionLeaveTimeout={300}>
         {Object.keys(this.state.cryptos).map((key) => (
 
-          <div className="card col-sm-4">
+          <div className="card rounded-top col-sm-3">
             <div className="card-body">
               <h3 className="card-title">{key}</h3>
               <p className="card-text">
@@ -68,7 +72,7 @@ class Infura extends Component {
           </div>
 
         ))}
-
+        </CSSTransitionGroup>
 
       </div>
     )

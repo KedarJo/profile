@@ -4,6 +4,8 @@ import { CSSTransitionGroup } from 'react-transition-group'
 
 import Graph from './Graph'
 import Infura from './Infura'
+import Dash from './Dash'
+
 
 function Portfolio () {
   return(
@@ -174,7 +176,8 @@ function Portfolio () {
                 </a>
               </div>
               <p><strong>Tech Stack: </strong>Python3 for accounting - Edgar XBRL paring with Python BeautifulSoup, Visualization with D3</p>
-              <p className='mb-5'>Coming soon...</p>
+              <p className='mb-5'>Dashboard Coming soon...</p>
+
               <hr />
             </div>
           </div>
@@ -191,7 +194,7 @@ function Portfolio () {
   <li className="list-inline-item">  <i className="fab fa-ethereum"></i></li>
 </ul>
 <div className='mb-5'> <Infura /></div>
-
+<Dash />
 */
 
 export default Portfolio;
