@@ -175,9 +175,9 @@ function Portfolio () {
                   <span>  <i className="fab fa-github-alt"></i></span>
                 </a>
               </div>
-              <p><strong>Tech Stack: </strong>Python3 for accounting - Edgar XBRL paring with Python BeautifulSoup, Visualization with D3</p>
-              <p className='mb-5'>Dashboard Coming soon...</p>
-
+              <p><strong>Tech Stack: </strong>Python3 for accounting - Edgar XBRL paring with Python BeautifulSoup, Visualization with react-vis (Uber)</p>
+              <p className='mb-5'>10-Q filing by AAPL simple stats</p>
+              <Dash />
               <hr />
             </div>
           </div>

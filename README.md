@@ -77,3 +77,11 @@ import * as d3 from "d3";
 4. Define stateful component Graph and all required D3-force props.
 5. Use render() to render the canvas itself and componentDidMount() to define and create D3 simulation
 ---     
+
+react-vis
+---
+
+Using D3 directly can be challenging. Good people at Uber have built this library that works fairly well with React
+[react-vis](http://uber.github.io/react-vis/)
+
+---
