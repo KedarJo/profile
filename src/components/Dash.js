@@ -27,7 +27,7 @@ class Dash extends Component {
 
         <div className="card rounded-top col-sm-5">
           <div className="card-body">
-          <h4 className="card-title">Segment Sales & Operating Income (000 M)</h4>
+          <h4 className="card-title">Segment Sales, Operating Income (000 M)</h4>
             <XYPlot height={300} width={300} xType="ordinal" >
               <VerticalBarSeries data={[
                 {x: 'Americas', y: 24.542, label: 'Americas'},

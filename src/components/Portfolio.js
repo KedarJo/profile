@@ -144,19 +144,28 @@ function Portfolio () {
                   <span>  <i className="fab fa-github-alt"></i></span>
                 </a>
               </div>
-
               <p><strong>Objective:</strong> Explore inter-account interactions and value exchanges on Ethereum mainnet</p>
               <p><strong>Tech Stack: </strong>Python3, Web3.py, Sqlite, D3-force. <br/> With sample data downloaded from ETH mainnnet with Web3 API we can observe P2P transaction clusters of exchange contracts</p>
               <Graph />
               <p className='mb-5'></p>
               <hr />
+
+              <div className="subheading mb-0">Earnings Report Dashboard
+                <a href="#">
+                  <span>  <i className="fab fa-github-alt"></i></span>
+                </a>
+              </div>
+              <p><strong>Tech Stack: </strong>Python3 for accounting - Edgar XBRL paring with Python BeautifulSoup, Visualization with react-vis (Uber)</p>
+              <p className='mb-5'>10-Q filing by AAPL simple stats</p>
+              <Dash />
+              <hr />
+
               <div className="subheading mb-0">CFPB complaints as feature to predict stock price
                 <a href="https://github.com/KedarJo/CFPB-Complaints" target="_blank" rel="noopener noreferrer">
                   <span>  <i className="fab fa-github-alt"></i></span>
                 </a>
               </div>
               <p><strong>Tech Stack: </strong>Python3 for Data Science - numpy, scipy, pandas, matplotlib, D3</p>
-              <p>D3 visulization Coming soon...</p>
               <p>A very weak negative correlation is observed. This can certainly be a feature to consider for Supervised Learning, however other features with stronger correlation must be discovered</p>
               <img className="img-fluid img-responsive mx-auto d-block " src="./img/Complaints.png" alt="matplotlib visual" />
               <p className='mb-5'></p>
@@ -170,15 +179,6 @@ function Portfolio () {
               <p className='mb-5'>As Digital Technologies take center stage, need for specialized technology services is greater than ever. Platform model and blockchain based technologies hold great promise in providing alternative to enable peer to peer transactions of highly specialized services possible with leaner and more customer centric manner. The article discusses possibilities the future holds.</p>
               <hr />
 
-              <div className="subheading mb-0">Earnings Report Dashboard
-                <a href="#">
-                  <span>  <i className="fab fa-github-alt"></i></span>
-                </a>
-              </div>
-              <p><strong>Tech Stack: </strong>Python3 for accounting - Edgar XBRL paring with Python BeautifulSoup, Visualization with react-vis (Uber)</p>
-              <p className='mb-5'>10-Q filing by AAPL simple stats</p>
-              <Dash />
-              <hr />
             </div>
           </div>
         </div>
