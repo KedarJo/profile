@@ -58,6 +58,7 @@ function Home() {
                     <p><strong>Clients Helped</strong></p>
                     <img src={process.env.PUBLIC_URL + '/img/WellsFargo.png'} alt="WellsFargo Client Logo" className="img-fluid rounded-top logo-image" />
                     <img src={process.env.PUBLIC_URL + '/img/ATT.png'} alt="ATT Client Logo" className="img-fluid rounded-top float-left logo-image" />
+
                   </div>
                 </div>
                 <p><strong><a href={process.env.PUBLIC_URL + '/Experience'}>Experience Details</a></strong></p>
@@ -75,11 +76,11 @@ function Home() {
                   </span>
                   <span><strong>Featured Skills</strong>
                   <ul className="list-group">
-                    <li className="list-group-item">Machine Learning</li>
                     <li className="list-group-item">Blockchain</li>
                     <li className="list-group-item">SOA and Microservices</li>
-                    <li className="list-group-item">Web Development</li>
-                    <li className="list-group-item">Agile Development</li>
+                    <li className="list-group-item">Machine Learning</li>
+                    <li className="list-group-item">Web Design and Development</li>
+                    <li className="list-group-item">Agile</li>
                   </ul>
                   </span>
                 </div>
