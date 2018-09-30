@@ -32,7 +32,7 @@ function Portfolio () {
               <hr />
 
               <div className="subheading mb-0">Crypto Prices</div>
-              <p><strong>Objective:</strong> Simple Rest API call for prices of top crypto.</p>
+              <p><strong>Objective:</strong> Simple API call top Crypto prices and last 20 hour trend</p>
               <Infura />
               <p className='mb-5'></p>
               <hr />

@@ -19,6 +19,12 @@ function Certifications() {
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
+              <a href='https://www.coursera.org/account/accomplishments/specialization/RLNPL7NKLNP7' target='_blank' rel="noopener noreferrer">
+                Web Design For Everybody Specialization
+              </a> - University of Michigan</li>
+
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
               <a href='https://www.coursera.org/account/accomplishments/certificate/NJ6HX78TLSJQ' target='_blank' rel="noopener noreferrer">
                 Applied Machine Learning in Python
               </a> - University of Michigan</li>

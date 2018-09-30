@@ -46,10 +46,10 @@ class App extends Component {
                 <ul className="navbar-nav mr-auto">
 
                   <li className="nav-item">
-                    <NavLink to={process.env.PUBLIC_URL + '/'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>How I can help</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + '/'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Home</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink to={process.env.PUBLIC_URL + '/Portfolio'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Recent Work</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + '/Portfolio'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Portfolio</NavLink>
                   </li>
                   <li className="nav-item">
                     <NavLink to={process.env.PUBLIC_URL + '/Experience'} className='nav-link' onClick = {() => {document.getElementByClassName('navbar-collapse').collapse('hide')}}>Experience</NavLink>

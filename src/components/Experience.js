@@ -4,13 +4,16 @@ function Experience() {
   return (
 
     <div className="container-fluid p-0">
-      <section className="resume-section p-3 p-lg-5 d-flex flex-column text-justify" id="experience">
+      <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
 
         <div className="resume-item d-flex flex-column flex-md-row mb-5">
           <div className="resume-content mr-auto">
             <h3 className="mb-0">Independent, Blockchain & Data Science</h3>
-            <div className="subheading mb-3">Independent</div>
-            <p>After working for over a decade and half with a leading global IT services firm. In August of 2017, I decided to part ways with my former employer to devote entire time to an independent research blockchain based platform model. Since then I have developed skills in emerging tech such as Data Science and Blockchain with training in number of foundational subjects. <br /><br />Pursued independent research and projects. Find my <a href={process.env.PUBLIC_URL + '/Portfolio'}>recent work</a> and new <a href={process.env.PUBLIC_URL + '/Skills'}>skills</a>.</p>
+            <ul>
+              <li>Independent research projects to explore possibilities with Blockchain</li>
+              <li>Mock projects on Data Science & Machine Learning</li>
+            </ul>
+            <p><a href={process.env.PUBLIC_URL + '/Portfolio'}>Portfolio of recent projects</a></p>
           </div>
           <div className="resume-date text-md-right">
             <span className="text-primary">Sep 2017 - Present</span>
@@ -19,13 +22,14 @@ function Experience() {
 
         <div className="resume-item d-flex flex-column flex-md-row mb-5">
           <div className="resume-content mr-auto">
-            <h3 className="mb-0">Engagement Manager</h3>
+            <h3 className="mb-0">Associate Director - Accounts</h3>
             <div className="subheading mb-3">Cognizant Technology Solutions at Wells Fargo</div>
             <ul>
-              <li>Accountable for developing and implementing strategic vision for marketshare protection and growth of a multi-million dollar engagement.</li>
-              <li>Implemented service design focused on Relationship Building, Collaboration, Research & Consulting with a mantra 'add so much value that customers view you as an investment'.</li>
-              <li>Doubled the marketshare in under 5 years while establishing lasting relationships and high quality revenue </li>
-              <li>Consistently topped Customer Satisfaction Scores.</li>
+              <li>Doubled account revenue over 4 years  </li>
+              <li>Slashed cost to client by 10% YOY via continuous technology innovation </li>
+              <li>Overall portfolio $35M+</li>
+              <li>CRM: Peoplesoft and Salesforce</li>
+              <li>Business Lines: Brokerage & Wealth, Wholesale And Commercial Banking</li>
             </ul>
           </div>
           <div className="resume-date text-md-right">
@@ -35,15 +39,14 @@ function Experience() {
 
         <div className="resume-item d-flex flex-column flex-md-row mb-5">
           <div className="resume-content mr-auto">
-            <h3 className="mb-0">Delivery Manager</h3>
+            <h3 className="mb-0">Senior Manager - Delivery  </h3>
             <div className="subheading mb-3">Cognizant Technology Solutions at Wells Fargo</div>
             <ul>
-              <li>Accountable for delivering a portfolio of projects in Retail Brokerage & Wealth Management domain focused on improving lives of Financial </li>
-              <li>Advisors and customers while meeting compliance and regulatory standards.</li>
-              <li>Accountable for team leadership and inspiring people to do their best work.</li>
-              <li>Implemented best-in-class processes, metrics/KPI based management and high quality deliverables</li>
-              <li>Maintained healthy profitability</li>
-              <li>Consistently topped team engagement scores</li>
+              <li>Improved profitability of $5M+ portfolio by 5% via standardization, automation, developer friendly tooling adoption</li>
+              <li>Improved Vendor Scorecard Performance</li>
+              <li>Delivered multiple Financial Advisor and Customer impacting projects</li>
+              <li>Tech Stack: .Net framework, Angular JS, Splunk, Peoplesoft, Actuate BI Reporting </li>
+              <li>Domain: Retail Brokerage / Wealth Management</li>
             </ul>
           </div>
           <div className="resume-date text-md-right">
@@ -53,16 +56,11 @@ function Experience() {
 
         <div className="resume-item d-flex flex-column flex-md-row mb-5">
           <div className="resume-content mr-auto">
-            <h3 className="mb-0">Development Team Lead and BSA</h3>
+            <h3 className="mb-0">Manager - Delivery</h3>
             <div className="subheading mb-3">Cognizant Technology Solutions at Wells Fargo</div>
             <ul>
-              <li>Delivered a system playbook for merger integration for client.</li>
-              <li>Delivered system level business requirements and functional specifications</li>
-              <li>Documented business process flows</li>
-              <li>Contributed to the cutover strategy for large systems migration</li>
-              <li>Contributed to the end-to-end testing strategy and test planning</li>
-              <li>Designed software for automated data cutovers saving 40% migration effort</li>
-              <li>Acted as project manager for parts of the overall migration effort</li>
+              <li>Developed culture of customer centric continuous innovation and consulting</li>
+              <li>Improved, Maintained Delivery KPIs to complete project on budget and schedule</li>
             </ul>
           </div>
           <div className="resume-date text-md-right">
@@ -74,7 +72,10 @@ function Experience() {
           <div className="resume-content mr-auto">
             <h3 className="mb-0">Developer / Tech Lead / BSA</h3>
             <div className="subheading mb-3">Cognizant Technology Solutions at AT&T</div>
-            <p>Worked on several projects as Tech Lead and BSA on a billing platform. A few examples included Introduction of VoIP based service, Introduction of bundled offers with partner firm and designing and delivering several new usage based plan offers.</p>
+            <ul>
+              <li>Engineering Team Lead - Accounts Management Telco billing platform</li>
+              <li>Lanunched multiple Direct Dial, Bundled and VoIP products</li>
+            </ul>
           </div>
           <div className="resume-date text-md-right">
             <span className="text-primary">Jan 2002 - Dec 2006</span>

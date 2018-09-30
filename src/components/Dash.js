@@ -27,7 +27,7 @@ class Dash extends Component {
 
         <div className="card rounded-top col-sm-5">
           <div className="card-body">
-          <h4 className="card-title">Segment Sales, Operating Income (000 M)</h4>
+          <h4 className="card-title">Sales & Operating Income (000 M)</h4>
             <XYPlot height={300} width={300} xType="ordinal" >
               <VerticalBarSeries data={[
                 {x: 'Americas', y: 24.542, label: 'Americas'},
@@ -52,6 +52,7 @@ class Dash extends Component {
         <div className="card rounded-top col-sm-5">
           <div className="card-body">
             <h4 className="card-title">Sales by Product (000 M)</h4>
+            <strong>
             <RadialChart
               className={'donut-chart-example'}
               data={[
@@ -63,23 +64,24 @@ class Dash extends Component {
               ]}
               onValueMouseOver={v => this.setState({value: v})}
               onSeriesMouseOut={v => this.setState({value: false})}
-
-              innerRadius={100}
-              radius={140}
-              width={300}
+              showLabels={true}
+              innerRadius={70}
+              radius={130}
+              width={280}
               height={300}
               padAngle={0.04}
 
             >
             {value && <Hint value={value} />}
             </RadialChart>
+            </strong>
           </div>
         </div>
 
         <div className="card rounded-top col-sm-5">
           <div className="card-body">
           <h4 className="card-title">Consolidated Income (000 M)</h4>
-            <XYPlot height={300} width={300} xType="ordinal" stackBy="y" >
+            <XYPlot height={300} width={280} xType="ordinal" stackBy="y" >
               <VerticalGridLines />
               <HorizontalGridLines />
               <XAxis />
@@ -93,7 +95,7 @@ class Dash extends Component {
         <div className="card rounded-top col-sm-5">
           <div className="card-body">
           <h4 className="card-title">EPS ($)</h4>
-            <XYPlot height={300} width={300} xType="ordinal" stackBy="y" >
+            <XYPlot height={300} width={280} xType="ordinal" stackBy="y" >
               <VerticalGridLines />
               <HorizontalGridLines />
               <XAxis />

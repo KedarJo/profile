@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import { CSSTransitionGroup } from 'react-transition-group'
+import { RadialChart, DiscreteColorLegend } from 'react-vis';
+
 
 function Home() {
   return (
@@ -21,37 +23,78 @@ function Home() {
               <a href="mailto:kedarnj@gmail.com">kedarnj@gmail.com</a>
             </div>
             </CSSTransitionGroup>
-            <div className='text-justify'>
-              <p className="lead mb-4">Hello and Welcome! </p>
-              <p className="lead mb-4">I am Kedar, an analyst / consultant with an eye for detail, appreciation for aesthetics and take pride and satisfaction only when the work is done to the exacting standards. </p>
-              <p className="lead mb-4">I have past <a href={process.env.PUBLIC_URL + '/Experience'}>experience</a> in Retail Brokerage/Wealth Management domain. I have an overall experience of a decade and half as a developer, delivery manager and account/engagement manager. </p>
+
+              <h4 className="mb-4">Business Technology Consultant</h4>
               <div className="mb-4">
-                <p className="lead">With my <a href={process.env.PUBLIC_URL + '/Portfolio'}>recent work</a> and new <a href={process.env.PUBLIC_URL + '/Skills'}>skills</a> I can help you with the projects that involve:</p>
-                <ul>
-                  <li>Front end web development</li>
-                  <li>SOA / Microservices / API (WIP Skill development: Service Mesh with Istio)</li>
-                  <li>Blockchain implementation</li>
-                  <li>Data collection, analysis, visualization, Machine Learning</li>
-                </ul>
+
+                <div className="card col-sm-12">
+                  <div className="card-body">
+                    <h5 className='card-title'>Experience Summary (15+ Yrs)</h5>
+                    <strong>
+                    <RadialChart
+                      className={'donut-chart-example'}
+                      data={[
+                        {angle: 4, label: '1'},
+                        {angle: 3, label: '2'},
+                        {angle: 5, label: '3'},
+                        {angle: 4, label: '4'},
+                        {angle: 1, label: '5'}
+                      ]}
+                      showLabels={true}
+                      innerRadius={40}
+                      radius={100}
+                      width={250}
+                      height={250}
+                      padAngle={0.04}
+                    >
+                    </RadialChart>
+                    </strong>
+                    <DiscreteColorLegend
+                      showLabels={true}
+                      items={['1 Software Engineering', '2 Business Systems Analysis', '3 Program Management','4 Account Strategy and Sales','5 Independent Projects']}
+                      width={250}
+                      height={150}
+                    />
+                  </div>
+                </div>
+                <p><strong><a href={process.env.PUBLIC_URL + '/Experience'}>Experience Details</a></strong></p>
               </div>
-              <div className="mb-4">
-                <p className="lead">I can also help you with:</p>
-                <ul>
-                  <li>Liaising for technology teams with relationship focus</li>
-                  <li>Understanding strategic business goals and needs</li>
-                  <li>Developing business cases with cost-benefit analysis</li>
-                  <li>KPI driven Project Management, Budgeting and Progress Tracking</li>
-                  <li>Coaching / Knowledge Sharing with other team members</li>
-                  <li>RFP/Vendor management</li>
-                </ul>
+              <div className="card col-sm-12">
+                <div className="card-body">
+                  <h5 className='card-title'>Skill Summary</h5>
+                  <span className="mb-3"><strong>Top Skills</strong>
+                  <ul className="list-group mb-3">
+                    <li className="list-group-item">Requirement Analysis</li>
+                    <li className="list-group-item">Business Analysis</li>
+                    <li className="list-group-item">Business Strategy and Sales</li>
+                    <li className="list-group-item">Project Management</li>
+                  </ul>
+                  </span>
+                  <span><strong>Featured Skills</strong>
+                  <ul className="list-group">
+                    <li className="list-group-item">Machine Learning</li>
+                    <li className="list-group-item">Blockchain</li>
+                    <li className="list-group-item">SOA and Microservices</li>
+                    <li className="list-group-item">Web Development</li>
+                    <li className="list-group-item">Agile Development</li>
+                  </ul>
+                  </span>
+                </div>
               </div>
 
-              <p className="lead mb-4">My professional interests include product strategy and operations, business analysis, service design, experimenting and implementing digital solutions that enhance product experience. </p>
-              <p className="lead mb-4">I love learning by being hands on and help teams achieve their goals. I am a great fit for any role that sits at the intersection of business savvy and technology.</p>
-              <p className="lead mb-4">Find a bit more <a href={process.env.PUBLIC_URL + '/About'}>about me</a>.</p>
-              <p className="lead mb-4">Say Hello <a href="mailto:kedarnj@gmail.com">@email</a> </p>
+              <p><strong><a href={process.env.PUBLIC_URL + '/Skills'}>Skill Details</a></strong></p>
+              <p className="mb-4"><strong><a href={process.env.PUBLIC_URL + '/Portfolio'}>Portfolio</a></strong></p>
+
+              <div className="card col-sm-12">
+                <div className="card-body">
+                  <h5 className='card-title'>Professional Interests</h5>
+                  <p>Product Strategy and Operations, Business Analysis, Service Design, Experimenting and Implementing Digital Solutions that enhance product experience</p>
+                </div>
+              </div>
+              <p className="mb-4"><strong><a href={process.env.PUBLIC_URL + '/About'}>About me</a></strong></p>
+              <p className="mb-4">Say Hello <a href="mailto:kedarnj@gmail.com">@email</a> </p>
             </div>
-          </div>
+
         </section>
 
         <hr className="m-0" />
