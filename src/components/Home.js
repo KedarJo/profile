@@ -55,6 +55,9 @@ function Home() {
                       width={250}
                       height={150}
                     />
+                    <p><strong>Clients Helped</strong></p>
+                    <img src={process.env.PUBLIC_URL + '/img/WellsFargo.png'} alt="WellsFargo Client Logo" className="img-fluid rounded-top logo-image" />
+                    <img src={process.env.PUBLIC_URL + '/img/ATT.png'} alt="ATT Client Logo" className="img-fluid rounded-top float-left logo-image" />
                   </div>
                 </div>
                 <p><strong><a href={process.env.PUBLIC_URL + '/Experience'}>Experience Details</a></strong></p>
@@ -64,10 +67,10 @@ function Home() {
                   <h5 className='card-title'>Skill Summary</h5>
                   <span className="mb-3"><strong>Top Skills</strong>
                   <ul className="list-group mb-3">
-                    <li className="list-group-item">Requirement Analysis</li>
                     <li className="list-group-item">Business Analysis</li>
                     <li className="list-group-item">Business Strategy and Sales</li>
                     <li className="list-group-item">Project Management</li>
+                    <li className="list-group-item">Solution Architecture</li>
                   </ul>
                   </span>
                   <span><strong>Featured Skills</strong>

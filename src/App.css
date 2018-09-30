@@ -320,6 +320,13 @@ canvas.canvas-graph {
   }
 }
 
+.logo-image {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
 /* D3JS Dashboard Style
 
 #pieChart {
