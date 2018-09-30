@@ -21,7 +21,7 @@ function Portfolio () {
           <h2 className="mb-0">Recent Work</h2>
           </CSSTransitionGroup>
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
-            <div className="resume-content mr-auto text-justify">
+            <div className="resume-content mr-auto">
               <div className="subheading mb-0">This Portfolio Website
                 <a href="https://github.com/KedarJo/profile" target="_blank" rel="noopener noreferrer">
                   <span>  <i className="fab fa-github-alt"></i></span>
@@ -60,9 +60,9 @@ function Portfolio () {
                   <div className="carousel-item active">
                     <div className="jumbotron">
                       <h3 className="display-4">eCommerce Marketplace dApp</h3>
-                      <p className='text-justify lead'>Very simple implementation to explore dApp <br/>Disclaimer: UX can be significantly enhanced.<br/><br/>The focus of building dApp is as follows:</p>
+                      <p className='lead'>Very simple implementation to explore dApp <br/>Disclaimer: UX can be significantly enhanced.<br/><br/>The focus of building dApp is as follows:</p>
 
-                      <ul className='lead'>
+                      <ul>
                         <li>Build core logic in Marketplace contract</li>
                         <li>Role based access control</li>
                         <li>Contract safety features</li>
