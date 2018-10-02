@@ -82,7 +82,7 @@ function Home() {
                     </strong>
                     <DiscreteColorLegend
                       showLabels={true}
-                      items={['1 Telco Billing', '2 Retail Brokerage', '3 Weath Management', '4 Commercial Banking','5 Platform Technology Research']}
+                      items={['1 Telco Billing', '2 Retail Brokerage', '3 Wealth Management', '4 Commercial Banking','5 Platform Technology Research']}
                       width={250}
                       height={150}
                     />
@@ -114,10 +114,10 @@ function Home() {
                   </span>
                   <span><strong>Featured Skills</strong>
                   <ul className="list-group">
-                    <li className="list-group-item">Blockchain</li>
+                    <li className="list-group-item">Blockchains</li>
                     <li className="list-group-item">SOA and Microservices</li>
                     <li className="list-group-item">Machine Learning</li>
-                    <li className="list-group-item">Web Design and Development</li>
+                    <li className="list-group-item">Web Development</li>
                     <li className="list-group-item">Agile</li>
                   </ul>
                   </span>
