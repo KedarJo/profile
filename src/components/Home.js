@@ -133,7 +133,7 @@ function Home() {
               <div className="card col-sm-8">
                 <div className="card-body">
                   <h5 className='card-title'>Professional Interests</h5>
-                  <p>Product Strategy and Operations, Business Analysis, Service Design, Experimenting and Implementing Digital Solutions that enhance product experience</p>
+                  <p>Platform Strategy and Operations, Business Analysis, Service Design, Experimenting and Implementing Digital Solutions that enhance product experience</p>
                 </div>
               </div>
               <p className="mb-4"><strong><a href={process.env.PUBLIC_URL + '/About'}>About me</a></strong></p>

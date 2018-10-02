@@ -8,11 +8,11 @@ function Experience() {
 
         <div className="resume-item d-flex flex-column flex-md-row mb-5">
           <div className="resume-content mr-auto">
-            <h3 className="mb-0">Independent, Blockchain & Data Science</h3>
+            <h3 className="mb-0">Independent, Platform Business Strategy and Technologies</h3>
             <ul>
-              <li>Independent research projects to explore possibilities with Blockchain</li>
-              <li>Mock projects on Data Science & Machine Learning</li>
+              <li>Independent research projects - Platform Technologies</li>
             </ul>
+            <p><a href={process.env.PUBLIC_URL + '/Skills'}>Technologies</a></p>
             <p><a href={process.env.PUBLIC_URL + '/Portfolio'}>Portfolio of recent projects</a></p>
           </div>
           <div className="resume-date text-md-right">
