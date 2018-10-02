@@ -27,9 +27,9 @@ function Home() {
               <h4 className="mb-4">Business Technology Consultant</h4>
               <div className="mb-4">
 
-                <div className="card col-sm-12">
+                <div className="card col-sm-4">
                   <div className="card-body">
-                    <h5 className='card-title'>Experience Summary (15+ Yrs)</h5>
+                    <h5 className='card-title'>Experience Summary (15+ Yrs): Role</h5>
                     <strong>
                     <RadialChart
                       className={'donut-chart-example'}
@@ -55,15 +55,53 @@ function Home() {
                       width={250}
                       height={150}
                     />
-                    <p><strong>Clients Helped</strong></p>
-                    <img src={process.env.PUBLIC_URL + '/img/WellsFargo.png'} alt="WellsFargo Client Logo" className="img-fluid rounded-top logo-image" />
-                    <img src={process.env.PUBLIC_URL + '/img/ATT.png'} alt="ATT Client Logo" className="img-fluid rounded-top float-left logo-image" />
 
                   </div>
                 </div>
+                <div className="card col-sm-4">
+                  <div className="card-body">
+                    <h5 className='card-title'>Experience Summary (15+ Yrs): Domain</h5>
+                    <strong>
+                    <RadialChart
+                      className={'donut-chart-example'}
+                      data={[
+                        {angle: 5, label: '1'},
+                        {angle: 7, label: '2'},
+                        {angle: 2, label: '3'},
+                        {angle: 2, label: '4'},
+                        {angle: 1, label: '5'},
+                      ]}
+                      showLabels={true}
+                      innerRadius={40}
+                      radius={100}
+                      width={250}
+                      height={250}
+                      padAngle={0.04}
+                    >
+                    </RadialChart>
+                    </strong>
+                    <DiscreteColorLegend
+                      showLabels={true}
+                      items={['1 Telco Billing', '2 Retail Brokerage', '3 Weath Management', '4 Commercial Banking','5 Platform Technology Research']}
+                      width={250}
+                      height={150}
+                    />
+                    </div>
+                  </div>
+
+
+                  <div className="card col-sm-8">
+                    <div className="card-body">
+                      <h5 className='card-title'>Clients Helped</h5>
+                      <img src={process.env.PUBLIC_URL + '/img/WellsFargo.png'} alt="WellsFargo Client Logo" className="img-fluid rounded-top logo-image" />
+                      <img src={process.env.PUBLIC_URL + '/img/ATT.png'} alt="ATT Client Logo" className="img-fluid rounded-top float-left logo-image" />
+                    </div>
+                  </div>
+
+
                 <p><strong><a href={process.env.PUBLIC_URL + '/Experience'}>Experience Details</a></strong></p>
               </div>
-              <div className="card col-sm-12">
+              <div className="card col-sm-8">
                 <div className="card-body">
                   <h5 className='card-title'>Skill Summary</h5>
                   <span className="mb-3"><strong>Top Skills</strong>
@@ -86,10 +124,13 @@ function Home() {
                 </div>
               </div>
 
-              <p><strong><a href={process.env.PUBLIC_URL + '/Skills'}>Skill Details</a></strong></p>
-              <p className="mb-4"><strong><a href={process.env.PUBLIC_URL + '/Portfolio'}>Portfolio</a></strong></p>
+              <p>
+                <strong><a href={process.env.PUBLIC_URL + '/Skills'}>Skill Details</a></strong>&nbsp;&nbsp;&nbsp;&nbsp;
+                <strong><a href={process.env.PUBLIC_URL + '/Certifications'}>Certifications</a></strong>
+              </p>
+              <p className="mb-4"><strong><a href={process.env.PUBLIC_URL + '/Portfolio'}>Portfolio of Recent Work</a></strong></p>
 
-              <div className="card col-sm-12">
+              <div className="card col-sm-8">
                 <div className="card-body">
                   <h5 className='card-title'>Professional Interests</h5>
                   <p>Product Strategy and Operations, Business Analysis, Service Design, Experimenting and Implementing Digital Solutions that enhance product experience</p>
@@ -105,5 +146,10 @@ function Home() {
     </div>
   )
 }
+
+/*
+
+
+*/
 
 export default Home;
