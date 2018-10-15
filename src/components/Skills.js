@@ -16,7 +16,7 @@ function Skills() {
         <h2 className="mb-5">Skills</h2>
         </CSSTransitionGroup>
 
-          <div className="subheading mb-3 text-justify">Leadership and Management</div>
+          <div className="subheading mb-3">Leadership and Management</div>
             <ul className="fa-ul mb-0">
               <li>
                 <i className="fa-li fa fa-check"></i>

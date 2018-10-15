@@ -42,7 +42,7 @@ function Portfolio () {
                   <span>  <i className="fab fa-github-alt"></i></span>
                 </a>
               </div>
-              <p><strong>Objective:</strong> Explore application of dis-intermediation via hands-on smart contract dApp development for a simple use case.</p>
+              <p><strong>Objective:</strong> Explore application of dis-intermediation via hands-on smart contract dApp development for a simple use case</p>
               <p><strong>Tech Stack: </strong>(Ganache-CLI dev sandbox) ReactJS, ES6, Web3JS and Bootstrap 4, Solidity Smart Contracts, IPFS, MetaMask</p>
               <div id="carouselETHMarketplace" className="carousel slide mb-3" data-ride="carousel">
                 <ol className="carousel-indicators carousel-indicators--round">

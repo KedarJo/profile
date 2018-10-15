@@ -15,9 +15,9 @@ function Home() {
             transitionEnter={false}
             transitionLeave={false}>
 
-            <h1 className="mb-0">Kedar
+            <h2 className="mb-0">Kedar
               <span className="text-primary"> Joshi</span>
-            </h1>
+            </h2>
 
             <div className="subheading mb-5">Charlotte, NC · (980) 226-3028 ·
               <a href="mailto:kedarnj@gmail.com">kedarnj@gmail.com</a>
@@ -114,11 +114,11 @@ function Home() {
                   </span>
                   <span><strong>Featured Skills</strong>
                   <ul className="list-group">
-                    <li className="list-group-item">Blockchains</li>
-                    <li className="list-group-item">SOA and Microservices</li>
-                    <li className="list-group-item">Machine Learning</li>
-                    <li className="list-group-item">Web Development</li>
-                    <li className="list-group-item">Agile</li>
+                    <li className="list-group-item">Platform: Blockchains</li>
+                    <li className="list-group-item">Modularize: SOA/Microservices/API</li>
+                    <li className="list-group-item">Match: Machine Learning</li>
+                    <li className="list-group-item">UX: Web Development</li>
+                    <li className="list-group-item">Mindset: Agile</li>
                   </ul>
                   </span>
                 </div>
@@ -133,7 +133,7 @@ function Home() {
               <div className="card col-sm-8">
                 <div className="card-body">
                   <h5 className='card-title'>Professional Interests</h5>
-                  <p>Platform Strategy and Operations, Business Analysis, Service Design, Experimenting and Implementing Digital Solutions that enhance product experience</p>
+                  <p>Platform Strategy and Operations, Business Analysis, Service Design and Digital Solutions that deliver frictionless product experiences. </p>
                 </div>
               </div>
               <p className="mb-4"><strong><a href={process.env.PUBLIC_URL + '/About'}>About me</a></strong></p>

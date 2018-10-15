@@ -9,6 +9,7 @@ import Skills from './components/Skills'
 import Certifications from './components/Certifications'
 import Education from './components/Education'
 import About from './components/About'
+import ChatBot from './components/ChatBot';
 
 
 import './App.css';
@@ -70,6 +71,7 @@ class App extends Component {
                 </ul>
               </div>
             </nav>
+
             <main>
               <Switch>
                 <Route path={process.env.PUBLIC_URL + '/'} component={ Home } exact />
@@ -85,6 +87,32 @@ class App extends Component {
           </div>
         </BrowserRouter>
         </header>
+
+        <div className="fixed-bottom d-flex flex-row-reverse mr-4 mb-5">
+          <button type="button" className="btn btn-dark rounded-circle btn-lg" data-toggle="modal" data-target="#chatbotModal">
+            <i className="fas fa-question"></i>
+          </button>
+        </div>
+
+        <div className="modal fade" id="chatbotModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div className="modal-dialog" role="document">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title" id="exampleModalLabel">Ask Lara</h5>
+                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div className="modal-body">
+                <ChatBot />
+              </div>
+              <div className="modal-footer">
+                <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <footer>
             <div className="social-icons p-2 d-flex d-column justify-content-center">
               <a href={ process.env.PUBLIC_URL + '/' }>
@@ -108,37 +136,9 @@ class App extends Component {
 }
 
 /*
-
-const Home = () => {
-  return (
-  )
-}
-
-const Experience = () => {
-  return (
-  )
-}
-
-const Skills = () => {
-  return (
-  )
-}
-
-const Certifications = () => {
-  return (
-  )
-}
-
-const Education = () => {
-  return (
-  )
-}
-
-const About = () => {
-  return (
-  )
-}
-
+<ChatBot />
+<i className="fas fa-headset"></i>
+<i className="far fa-comments"></i>
 <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
 </section>
 <p className="lead mb-5">As an accounts/engagement manager for Retail Brokerage (WFA) and Wealth Management division of Wells Fargo I was responsible for building and implementing strategic vision based on relationship development, research and innovation with rapid prototyping and product mindset to elevate the contractual agreement to a rich long term partnership, consistently posting double digit growth and high customer satisfaction score. </p>

@@ -1,0 +1,46 @@
+
+.conversation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    padding: 1rem;
+    width: 100%;
+}
+
+.conversation-messages {
+  overflow-y: auto;
+  flex: 1;
+}
+
+.conversation-input-container {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.conversation-disclaimer-message .base-h6 {
+  padding-top: 6px;
+  font-size: 0.75rem;
+}
+
+.conversation-input {
+  width: 80%;
+}
+
+/*
+    &__inner {
+        display: flex;
+        align-items: stretch;
+        align-content: stretch;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+    }
+
+    &__input {
+
+    }
+
+*/

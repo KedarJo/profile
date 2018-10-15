@@ -19,10 +19,19 @@ function Certifications() {
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
+              <a href='https://www.youracclaim.com/badges/cc9f470b-f38c-4312-962c-59210407a1d0/linked_in_profile' target='_blank' rel="noopener noreferrer">
+              Build Your Own Chatbot
+              </a> - IBM Acclaim</li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              <a href='https://www.coursera.org/account/accomplishments/specialization/VA5CVBLYT9GE' target='_blank' rel="noopener noreferrer">
+              Developing APIs with Apigee API Platform Specialization
+              </a> - Google Cloud</li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
               <a href='https://www.coursera.org/account/accomplishments/specialization/RLNPL7NKLNP7' target='_blank' rel="noopener noreferrer">
                 Web Design For Everybody Specialization
               </a> - University of Michigan</li>
-
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
               <a href='https://www.coursera.org/account/accomplishments/certificate/NJ6HX78TLSJQ' target='_blank' rel="noopener noreferrer">

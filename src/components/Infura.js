@@ -102,6 +102,7 @@ class Infura extends Component {
   }
 
   render() {
+    
     return(
       <div>
 
