@@ -89,14 +89,15 @@ Using D3 directly can be challenging. Good people at Uber have built this librar
 Chatbot Integration
 ---
 
-IBM Watson Assistant is simple to learn and train.
-[Tutorial](https://www.youracclaim.com/org/ibm/badge/build-your-own-chatbot-level-1)
-[API Reference](https://www.ibm.com/watson/developercloud/assistant/api/v1/curl.html?curl)
+IBM Watson Assistant is simple to learn and train.    
+[Tutorial](https://www.youracclaim.com/org/ibm/badge/build-your-own-chatbot-level-1)   
+[API Reference](https://www.ibm.com/watson/developercloud/assistant/api/v1/curl.html?curl)       
 
 React integration: Use API calls to Watson service. Stores required credential to use API in .env file. See .env-example.
 
-Following project gives starter code:
-[Assistant with Discovery and Openwhisk](https://github.com/watson-developer-cloud/assistant-with-discovery-openwhisk)
+Following project gives starter code:   
+[Assistant with Discovery and Openwhisk](https://github.com/watson-developer-cloud/assistant-with-discovery-openwhisk)   
+
 Here, the use case is different and use of Discovery or Openwhisk was not necessary here. So only the conversation code is used as a scaffolding.
 
 ---  
