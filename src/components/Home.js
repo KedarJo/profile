@@ -114,10 +114,10 @@ function Home() {
                   </span>
                   <span><strong>Featured Skills</strong>
                   <ul className="list-group">
-                    <li className="list-group-item">Platform: Blockchains</li>
-                    <li className="list-group-item">Modularize: SOA/Microservices/API</li>
+                    <li className="list-group-item">Platform: Blockchains, PCF</li>
+                    <li className="list-group-item">Modularize: BIAN/SOA/Microservices/API</li>
                     <li className="list-group-item">Match: Machine Learning</li>
-                    <li className="list-group-item">UX: Web Development</li>
+                    <li className="list-group-item">UX: Web Development, ChatBot</li>
                     <li className="list-group-item">Mindset: Agile</li>
                   </ul>
                   </span>

@@ -21,6 +21,10 @@ function Education () {
             <div className="resume-content mr-auto">
               <h3 className="mb-0">Boston University</h3>
               <div className="subheading mb-3">Platform Strategy for Business</div>
+              <div><a href='https://courses.edx.org/certificates/f617827668c842f8a138ed27f5d55f7d' target='_blank' rel="noopener noreferrer">
+                    Certification Course
+                   </a>
+              </div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">October 2018</span>
