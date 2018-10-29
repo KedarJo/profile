@@ -19,14 +19,24 @@ function Certifications() {
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              <a href='https://www.youracclaim.com/badges/cc9f470b-f38c-4312-962c-59210407a1d0/linked_in_profile' target='_blank' rel="noopener noreferrer">
-              Build Your Own Chatbot
-              </a> - IBM Acclaim</li>
+              <a href='http://bcert.me/slazjqfgg' target='_blank' rel="noopener noreferrer">
+              Pivotal Cloud Foundry Developer
+            </a> - Pivotal Software, Inc.</li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              <a href='https://courses.cognitiveclass.ai/certificates/a3ce2069506a4ae29f5af41ab0fe4dbe' target='_blank' rel="noopener noreferrer">
+              Getting Started with Microservices with Istio and IBM Cloud Kubernetes Service
+            </a> - IBM Acclaim</li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
               <a href='https://www.coursera.org/account/accomplishments/specialization/VA5CVBLYT9GE' target='_blank' rel="noopener noreferrer">
               Developing APIs with Apigee API Platform Specialization
               </a> - Google Cloud</li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              <a href='https://courses.cognitiveclass.ai/certificates/32a8115c697c40c1912e81b531b2cf32' target='_blank' rel="noopener noreferrer">
+              Build Your Own Chatbot
+              </a> - IBM Acclaim</li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
               <a href='https://www.coursera.org/account/accomplishments/specialization/RLNPL7NKLNP7' target='_blank' rel="noopener noreferrer">

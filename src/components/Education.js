@@ -19,11 +19,21 @@ function Education () {
 
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
             <div className="resume-content mr-auto">
+              <h3 className="mb-0">Boston University</h3>
+              <div className="subheading mb-3">Platform Strategy for Business</div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">October 2018</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row mb-5">
+            <div className="resume-content mr-auto">
               <h3 className="mb-0">Wesleyan University</h3>
               <div className="subheading mb-3">Property and Liability: An Introduction to Law and Economics</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">June 2018 - Present</span>
+              <span className="text-primary">June 2018</span>
             </div>
           </div>
 
@@ -38,7 +48,7 @@ function Education () {
               </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">May 2018 - Present</span>
+              <span className="text-primary">May 2018</span>
             </div>
           </div>
 
@@ -52,7 +62,7 @@ function Education () {
               </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Jan 2018 - Present</span>
+              <span className="text-primary">Jan 2018</span>
             </div>
           </div>
 
@@ -66,7 +76,7 @@ function Education () {
               </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Dec 2017 - Present</span>
+              <span className="text-primary">Dec 2017</span>
             </div>
           </div>
 
@@ -80,7 +90,7 @@ function Education () {
               </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">June 2017 - Present</span>
+              <span className="text-primary">June 2017</span>
             </div>
           </div>
 
